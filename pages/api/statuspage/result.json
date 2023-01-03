@@ -1,0 +1,44 @@
+{
+  "page": {
+    "id": "9f5hpdsv6r8j",
+    "name": "Dan Stroot Blog",
+    "url": "https://danstrootblog.statuspage.io",
+    "time_zone": "Etc/UTC",
+    "updated_at": "2023-01-02T22:35:29.800Z"
+  },
+  "components": [
+    {
+      "id": "08z4wlhtvwfs",
+      "name": "API (example)",
+      "status": "operational",
+      "created_at": "2023-01-02T22:25:23.037Z",
+      "updated_at": "2023-01-02T22:25:23.037Z",
+      "position": 1,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-01-02",
+      "group_id": null,
+      "page_id": "9f5hpdsv6r8j",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "9bjk8qlyrxkb",
+      "name": "Management Portal (example)",
+      "status": "operational",
+      "created_at": "2023-01-02T22:25:23.063Z",
+      "updated_at": "2023-01-02T22:25:23.063Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-01-02",
+      "group_id": null,
+      "page_id": "9f5hpdsv6r8j",
+      "group": false,
+      "only_show_if_degraded": false
+    }
+  ],
+  "incidents": [],
+  "scheduled_maintenances": [],
+  "status": { "indicator": "none", "description": "All Systems Operational" }
+}

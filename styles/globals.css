@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* These styles are for the navigation bar */
+  .text-primary {
+    @apply text-gray-600 dark:text-gray-300;
+  }
+
+  .text-active {
+    @apply text-fuchsia-600 dark:text-fuchsia-400;
+  }
+
+  .text-hover {
+    @apply hover:text-fuchsia-600 dark:hover:text-fuchsia-400;
+  }
+
+  .text-new {
+    @apply text-green-600 dark:text-green-400 bg-green-200/50 dark:bg-green-400/20;
+  }
+
+  /* these are for the button with the moving gradient */
+  @keyframes buttonStroke {
+    0% {
+      transform: scaleX(8) scaleY(1.5) rotate(0deg);
+      opacity: 1;
+    }
+
+    to {
+      transform: scaleX(8) scaleY(1.5) rotate(1turn);
+      opacity: 1;
+    }
+  }
+
+  .animate-buttonStroke {
+    animation: buttonStroke 7s linear infinite;
+  }
+
+  .will-change-transform {
+    will-change: transform;
+  }
+
+  .bg-buttonConicGradient {
+    background-image: conic-gradient(
+        transparent 135deg,
+        #8b5cf6 180deg,
+        transparent 255deg
+      ),
+      conic-gradient(transparent -45deg, #d946ef 0deg, transparent 75deg);
+  }
+}
+
+.basic .none {
+  background-color: #2ecc71;
+}
+.basic .operational {
+  background-color: #2ecc71;
+}
+.basic .minor {
+  background-color: #f1c40f;
+}
+.basic .major {
+  background-color: #e67e22;
+}
+.basic .critical {
+  background-color: #e74c3c;
+}
+.basic .maintenance {
+  background-color: #3498db;
+}
