@@ -407,7 +407,7 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
         {/* 
           Final Bottom Section
         */}
-        <div className="flex flex-col flex-wrap items-center justify-between py-8 space-y-6 md:space-y-0 md:flex-row md:border-t md:dark:border-gray-800">
+        <div className="flex flex-col flex-wrap items-center justify-between pb-8 space-y-6 md:space-y-0 md:flex-row md:border-t md:dark:border-gray-800">
           <div className="block md:hidden">
             <svg
               width="135"
@@ -526,7 +526,8 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
             </div>
 
             <p className="text-sm text-berry-600 dark:text-[#ABB3BF]">
-              Copyright © 2022 Axiom, Inc.<span className="hidden md:inline"> All rights reserved.</span>
+              Copyright © 2022 Axiom, Inc.
+              <span className="hidden md:inline"> All rights reserved.</span>
             </p>
           </div>
         </div>

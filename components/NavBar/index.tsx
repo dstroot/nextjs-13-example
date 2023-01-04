@@ -130,7 +130,7 @@ export function NavBar() {
             leaveFrom="opacity-100 scale-100"
             leaveTo="opacity-0 scale-95"
           >
-            <Dialog.Panel className="fixed max-w-xs p-6 text-xl ml-4 font-semibold bg-white rounded-lg shadow-lg top-2 right-2 text-primary dark:bg-slate-800 dark:highlight-white/5">
+            <Dialog.Panel className="fixed max-w-xs p-6 ml-4 text-xl font-semibold bg-white rounded-lg shadow-lg top-2 right-2 text-primary dark:bg-slate-800 dark:highlight-white/5">
               <button
                 type="button"
                 onClick={() => setIsOpen(false)}
@@ -153,25 +153,24 @@ export function NavBar() {
                   />
                 </svg>
               </button>
-              <ul className="space-y-6">
+              <ul className="mt-4 space-y-6">
                 {menu.map((item, index) => {
                   return (
                     <li key={`${index}`}>
-                      <div className="border-b border-pink-600 dark:border-pink-500">
-                        <NavLink
-                          href={item.path}
-                          exact
-                          className="px-6 my-4 text-hover"
-                          onClick={() => setIsOpen(false)}
-                        >
-                          {item.name}
-                          {item.new ? (
-                            <span className="ml-2 font-medium text-xs leading-5 rounded-full px-2 py-0.5 text-new">
-                              New
-                            </span>
-                          ) : null}
-                        </NavLink>
-                      </div>
+                      <NavLink
+                        href={item.path}
+                        exact
+                        className="px-8 text-hover"
+                        onClick={() => setIsOpen(false)}
+                      >
+                        {item.name}
+                        {item.new ? (
+                          <span className="ml-2 font-medium text-xs leading-5 rounded-full px-2 py-0.5 text-new">
+                            New
+                          </span>
+                        ) : null}
+                      </NavLink>
+                      <div className="mt-5 border-b border-gray-300 dark:border-gray-500"></div>
                     </li>
                   );
                 })}
