@@ -2,7 +2,7 @@ export default async function Index() {
   return (
     <>
       <div className="w-full">
-        <h1 className="mt-8 pb-4 lg:mt-16 sm:text-center text-[30px] leading-[40px] md:leading-[50px] md:pt-2 md:text-5xl lg:text-6xl lg:leading-[70px] banner:text-7xl banner:leading-[84px] tracking-[-0.05em] md:tracking-[-0.07em] font-extrabold bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text">
+        <h1 className="mt-8 pb-4 lg:mt-16 sm:text-center text-[28px] leading-[40px] md:leading-[50px] md:pt-2 md:text-5xl lg:text-6xl lg:leading-[70px] banner:text-7xl banner:leading-[84px] tracking-[-0.05em] md:tracking-[-0.07em] font-extrabold bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text">
           You’ve got 99 problems,
           <br /> logging shouldn’t be one.
         </h1>
