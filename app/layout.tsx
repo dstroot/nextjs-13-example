@@ -28,12 +28,14 @@ export default async function RootLayout({
     <html lang="en">
       <head />
       <body
-        className={`${inter.variable} font-sans flex flex-col min-h-screen antialiased bg-gray-100 dark:bg-gray-900`}
+        className={`${inter.variable} font-sans antialiased text-gray-700 dark:text-gray-100 transition-colors bg-white dark:bg-gray-900`}
       >
-        <NavBar />
-        <main className="container flex-1 px-4 mx-auto">{children}</main>
-        <Footer />
-        <Footer2 statusData={statusData} />
+        <div className="flex flex-col min-h-screen">
+          <NavBar />
+          <main className="container flex-grow px-4 mx-auto">{children}</main>
+          <Footer />
+          <Footer2 statusData={statusData} />
+        </div>
       </body>
     </html>
   );
