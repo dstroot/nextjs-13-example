@@ -130,7 +130,7 @@ export function NavBar() {
             leaveFrom="opacity-100 scale-100"
             leaveTo="opacity-0 scale-95"
           >
-            <Dialog.Panel className="fixed w-full max-w-xs p-6 text-base font-semibold bg-white rounded-lg shadow-lg top-2 right-2 text-primary dark:bg-slate-800 dark:highlight-white/5">
+            <Dialog.Panel className="fixed max-w-xs p-6 text-xl ml-4 font-semibold bg-white rounded-lg shadow-lg top-2 right-2 text-primary dark:bg-slate-800 dark:highlight-white/5">
               <button
                 type="button"
                 onClick={() => setIsOpen(false)}
