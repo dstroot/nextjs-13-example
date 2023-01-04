@@ -9,4 +9,5 @@
 export const settings = {
   nodeEnv: process.env.NODE_ENV ?? "development",
   openAIKey: process.env.OPENAI_API_KEY ?? "",
+  statusPage: process.env.STATUS_PAGE_ID ?? "",
 };
