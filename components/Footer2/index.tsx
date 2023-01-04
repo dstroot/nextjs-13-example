@@ -527,7 +527,7 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
             </div>
 
             <p className="text-sm text-berry-600 dark:text-[#ABB3BF]">
-              Copyright © 2022 Axiom, Inc. All rights reserved.
+              Copyright © 2022 Axiom, Inc.<span className="hidden md:inline"> All rights reserved.</span>
             </p>
           </div>
         </div>
