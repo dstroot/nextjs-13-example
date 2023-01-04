@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { footerItems } from "./footerItems";
 import { StatusBar } from "../StatusBar";
 import { Disclosure } from "@headlessui/react";
 
@@ -48,7 +49,6 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
   return (
     <div className="flex items-center justify-center w-full px-4 bg-white dark:bg-[#09101F] md:pt-24 border-t dark:border-gray-200 border-gray-800">
       <div className="container px-4 mx-auto">
-        {/* w-full max-w-[1237px] */}
         {/* 
           Main Grid on Larger Screens, hidden on small screens
         */}
@@ -170,21 +170,17 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
             <div className="mb-6 text-slate-900 dark:text-slate-100 font-medium text-[15px]">
               Resources
             </div>
-            <a className={gridLinks} href="/docs">
-              Documentation
-            </a>
-            <a className={gridLinks} href="/enterprise">
-              Enterprise
-            </a>
-            <a className={gridLinks} href="/support">
-              Support
-            </a>
-            <a className={gridLinks} href="/docs/reference/cli">
-              CLI
-            </a>
-            <a className={gridLinks} href="/docs/restapi/introduction">
-              API Reference
-            </a>
+            {footerItems.resources.map((item, index) => {
+              return item.internal ? (
+                <Link key={`${index}`} href={item.path} className={gridLinks}>
+                  {item.name}
+                </Link>
+              ) : (
+                <a key={`${index}`} className={gridLinks} href={item.path}>
+                  {item.name}
+                </a>
+              );
+            })}
           </div>
           {/* 
             Third Column - Company
@@ -193,24 +189,17 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
             <div className="mb-6 text-berry-900 dark:text-white font-medium text-[15px]">
               Company
             </div>
-            <a className={gridLinks} href="/">
-              Home
-            </a>
-            <a className={gridLinks} href="/pricing">
-              Pricing
-            </a>
-            <a className={gridLinks} href="/blog">
-              Blog
-            </a>
-            <a className={gridLinks} href="/company#about">
-              About
-            </a>
-            <a className={gridLinks} href="/company#careers">
-              Careers
-            </a>
-            <a className={gridLinks} href="/contact">
-              Contact Us
-            </a>
+            {footerItems.company.map((item, index) => {
+              return item.internal ? (
+                <Link key={`${index}`} href={item.path} className={gridLinks}>
+                  {item.name}
+                </Link>
+              ) : (
+                <a key={`${index}`} className={gridLinks} href={item.path}>
+                  {item.name}
+                </a>
+              );
+            })}
           </div>
           {/* 
             Fourth Column - Legal
@@ -219,27 +208,23 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
             <div className="mb-6 text-berry-900 dark:text-white font-medium text-[15px]">
               Legal
             </div>
-            <a className={gridLinks} href="/privacy">
-              Privacy Policy
-            </a>
-            <a className={gridLinks} href="/terms">
-              Terms of Service
-            </a>
-            <a className={gridLinks} href="/cookies">
-              Cookies
-            </a>
-            <a className={gridLinks} href="/gdpr">
-              GDPR
-            </a>
-            <a className={gridLinks} href="/sla">
-              SLA
-            </a>
-            <a className={gridLinks} href="/sub-processors">
-              Sub-processors
-            </a>
+            {footerItems.legal.map((item, index) => {
+              return item.internal ? (
+                <Link key={`${index}`} href={item.path} className={gridLinks}>
+                  {item.name}
+                </Link>
+              ) : (
+                <a key={`${index}`} className={gridLinks} href={item.path}>
+                  {item.name}
+                </a>
+              );
+            })}
           </div>
         </div>
-        {/* Accordion/Disclosure panels for phones, hidden on large screens */}
+
+        {/* 
+          Accordion/Disclosure panels for phones, hidden on large screens 
+        */}
         <div className="flex flex-col py-8 md:hidden">
           <Disclosure>
             <Disclosure.Button className="w-full flex justify-between items-center text-base text-left text-berry-900 dark:text-[#ABB3BF] dark:hover:text-gray-100 py-4 border-b  dark:border-gray-800">
@@ -262,34 +247,23 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
             </Disclosure.Button>
             <Disclosure.Panel
               as="ul"
-              // className="py-4 flex flex-col space-y-4 text-berry-700 dark:text-[#ABB3BF] dark:hover:text-gray-100 pl-4"
               className="flex flex-col py-4 pl-4 space-y-4"
             >
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/docs">
-                  Documentation
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/enterprise">
-                  Enterprise
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/support">
-                  Support
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/docs/reference/cli">
-                  CLI
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/docs/restapi/introduction">
-                  API Reference
-                </Disclosure.Button>
-              </li>
+              {footerItems.resources.map((item, index) => {
+                return item.internal ? (
+                  <li className={panelLinks} key={`${index}`}>
+                    <Disclosure.Button as={Link} href={item.path}>
+                      {item.name}
+                    </Disclosure.Button>
+                  </li>
+                ) : (
+                  <li className={panelLinks} key={`${index}`}>
+                    <Disclosure.Button>
+                      <a href={item.path}>{item.name}</a>
+                    </Disclosure.Button>
+                  </li>
+                );
+              })}
             </Disclosure.Panel>
           </Disclosure>
           <Disclosure>
@@ -315,36 +289,21 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
               as="ul"
               className="flex flex-col py-4 pl-4 space-y-4"
             >
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/">
-                  Home
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/pricing">
-                  Pricing
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/blog">
-                  Blog
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/company#about">
-                  About
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/company#careers">
-                  Careers
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/contact">
-                  Contact Us
-                </Disclosure.Button>
-              </li>
+              {footerItems.company.map((item, index) => {
+                return item.internal ? (
+                  <li className={panelLinks} key={`${index}`}>
+                    <Disclosure.Button as={Link} href={item.path}>
+                      {item.name}
+                    </Disclosure.Button>
+                  </li>
+                ) : (
+                  <li className={panelLinks} key={`${index}`}>
+                    <Disclosure.Button>
+                      <a href={item.path}>{item.name}</a>
+                    </Disclosure.Button>
+                  </li>
+                );
+              })}
             </Disclosure.Panel>
           </Disclosure>
 
@@ -371,43 +330,28 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
               as="ul"
               className="flex flex-col py-4 pl-4 space-y-4"
             >
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/privacy">
-                  Privacy Policy
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/terms">
-                  Terms of Service
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/cookies">
-                  Cookies
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/gdpr">
-                  GDPR
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/sla">
-                  SLA
-                </Disclosure.Button>
-              </li>
-              <li className={panelLinks}>
-                <Disclosure.Button as={Link} href="/sub-processors">
-                  Sub-processors
-                </Disclosure.Button>
-              </li>
+              {footerItems.legal.map((item, index) => {
+                return item.internal ? (
+                  <li className={panelLinks} key={`${index}`}>
+                    <Disclosure.Button as={Link} href={item.path}>
+                      {item.name}
+                    </Disclosure.Button>
+                  </li>
+                ) : (
+                  <li className={panelLinks} key={`${index}`}>
+                    <Disclosure.Button>
+                      <a href={item.path}>{item.name}</a>
+                    </Disclosure.Button>
+                  </li>
+                );
+              })}
             </Disclosure.Panel>
           </Disclosure>
         </div>
         {/* 
           Final Bottom Section
         */}
-        <div className="flex flex-col flex-wrap items-center justify-between pb-8 space-y-6 md:space-y-0 md:flex-row md:border-t md:dark:border-gray-800">
+        <div className="flex flex-col flex-wrap items-center justify-between pb-8 space-y-6 md:pt-8 md:space-y-0 md:flex-row md:border-t md:dark:border-gray-800">
           <div className="block md:hidden">
             <svg
               width="135"
@@ -525,7 +469,7 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
               </ul>
             </div>
 
-            <p className="text-sm text-berry-600 dark:text-[#ABB3BF]">
+            <p className="text-sm text-gray-600 dark:text-gray-300">
               Copyright © 2022 Axiom, Inc.
               <span className="hidden md:inline"> All rights reserved.</span>
             </p>
