@@ -55,7 +55,7 @@ export function NavBar() {
                 <button
                   type="button"
                   onClick={() => setIsOpen(true)}
-                  className="flex items-center justify-center w-8 h-8 text-primary text-hover"
+                  className="flex items-center justify-center w-8 h-8 text-primary text-hover focus:outline-none"
                 >
                   <span className="sr-only">Navigation</span>
                   <svg
@@ -134,7 +134,7 @@ export function NavBar() {
               <button
                 type="button"
                 onClick={() => setIsOpen(false)}
-                className="absolute flex items-center justify-center w-8 h-8 top-2 right-2 text-primary text-hover"
+                className="absolute flex items-center justify-center w-8 h-8 top-2 right-2 text-primary text-hover focus:outline-none"
                 tabIndex={0}
               >
                 <span className="sr-only">Close navigation</span>
@@ -157,19 +157,21 @@ export function NavBar() {
                 {menu.map((item, index) => {
                   return (
                     <li key={`${index}`}>
-                      <NavLink
-                        href={item.path}
-                        exact
-                        className="text-hover"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        {item.name}
-                        {item.new ? (
-                          <span className="ml-2 font-medium text-xs leading-5 rounded-full px-2 py-0.5 text-new">
-                            New
-                          </span>
-                        ) : null}
-                      </NavLink>
+                      <div className="border-b border-pink-600 dark:border-pink-500">
+                        <NavLink
+                          href={item.path}
+                          exact
+                          className="px-6 my-4 text-hover"
+                          onClick={() => setIsOpen(false)}
+                        >
+                          {item.name}
+                          {item.new ? (
+                            <span className="ml-2 font-medium text-xs leading-5 rounded-full px-2 py-0.5 text-new">
+                              New
+                            </span>
+                          ) : null}
+                        </NavLink>
+                      </div>
                     </li>
                   );
                 })}
