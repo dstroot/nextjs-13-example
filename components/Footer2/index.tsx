@@ -48,7 +48,8 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
 
   return (
     <div className="flex items-center justify-center w-full px-4 bg-white dark:bg-[#09101F] md:pt-24 border-t dark:border-gray-200 border-gray-800">
-      <div className="w-full max-w-[1237px]">
+      <div className="container px-4 mx-auto">
+        {/* w-full max-w-[1237px] */}
         {/* 
           Main Grid on Larger Screens, hidden on small screens
         */}
@@ -56,7 +57,7 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
           {/* 
             First Column - Logo, Twitter, etc. 
           */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start ml-8">
             <Link
               className="flex text-[#656A8C] hover:text-berry-900 dark:text-gray-300"
               href="/"
@@ -102,7 +103,7 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
                       ></path>
                     </svg>
                   </span>
-                  <span className="inline">Follow on Twitter</span>
+                  <span className="inline">Twitter</span>
                 </a>
               </li>
               <li>
@@ -239,7 +240,6 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
             </a>
           </div>
         </div>
-
         {/* Accordion/Disclosure panels for phones, hidden on large screens */}
         <div className="flex flex-col py-8 md:hidden">
           <Disclosure>
@@ -405,7 +405,6 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
             </Disclosure.Panel>
           </Disclosure>
         </div>
-
         {/* 
           Final Bottom Section
         */}
