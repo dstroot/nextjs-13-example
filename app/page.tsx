@@ -2,18 +2,18 @@ export default async function Index() {
   return (
     <>
       <div className="w-full">
-        <h1 className="mt-8 pb-4 lg:mt-16 text-center text-3xl leading-[35px] md:leading-[50px] md:pt-2 md:text-5xl lg:text-6xl lg:leading-[70px] banner:text-7xl banner:leading-[84px] tracking-[-0.06em] md:tracking-[-0.07em] font-extrabold bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text">
+        <h1 className="mt-8 pb-4 lg:mt-16 sm:text-center text-[30px] leading-[40px] md:leading-[50px] md:pt-2 md:text-5xl lg:text-6xl lg:leading-[70px] banner:text-7xl banner:leading-[84px] tracking-[-0.05em] md:tracking-[-0.07em] font-extrabold bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text">
           You’ve got 99 problems,
           <br /> logging shouldn’t be one.
         </h1>
-        <p className="mt-6 md:mt-6 text-base lg:text-[22px] lg:leading-[33px] text-gray-900 dark:text-[#AAB7D2] text-center px-8 md:px-0">
+        <p className="mt-6 md:mt-6 text-lg lg:text-[22px] lg:leading-[33px] text-gray-900 dark:text-[#AAB7D2] sm:text-center">
           From inception to product market fit and beyond,{" "}
           <br className="hidden lg:inline" /> logging is now a solved problem
           for your product.
         </p>
       </div>
 
-      <div className="m-8 text-sm grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-900 dark:text-[#AAB7D2] p-8 lg:p-12 rounded-[25px] bg-gray-100 dark:bg-[#09101F] relative bg-clip-padding border-[2px] border-transparent before:content-[''] before:absolute before:left-0 before:right-0 before:bottom-0 before:top-0 before:-m-[2px] before:z-[-1] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500">
+      <div className="sm:mx-8 my-8 text-sm grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-900 dark:text-[#AAB7D2] p-8 lg:p-12 rounded-[25px] bg-gray-100 dark:bg-[#09101F] relative bg-clip-padding border-[2px] border-transparent before:content-[''] before:absolute before:left-0 before:right-0 before:bottom-0 before:top-0 before:-m-[2px] before:z-[-1] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500">
         <div className="flex items-start space-x-2">
           <div className="flex flex-col space-y-4">
             <div className="flex items-center space-x-2">
