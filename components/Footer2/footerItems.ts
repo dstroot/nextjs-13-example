@@ -1,6 +1,6 @@
 export const footerItems = {
   resources: [
-    { path: "/docs", name: "Documentation", internal: true },
+    { path: "/", name: "Documentation", internal: true },
     { path: "/support", name: "Support", internal: true },
     { path: "/contact", name: "Contact Us", internal: true },
   ],

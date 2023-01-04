@@ -172,7 +172,12 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
             </div>
             {footerItems.resources.map((item, index) => {
               return item.internal ? (
-                <Link key={`${index}`} href={item.path} className={gridLinks}>
+                <Link
+                  key={`${index}`}
+                  scroll={true}
+                  href={item.path}
+                  className={gridLinks}
+                >
                   {item.name}
                 </Link>
               ) : (

@@ -1,144 +1,7 @@
 export default function Index() {
   return (
     <>
-      <table className="table-auto">
-        <thead>
-          <tr>
-            <td>TYPE OF COOKIE</td>
-            <td>WHO SERVES THESE COOKIES</td>
-            <td>HOW TO REFUSE</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <b>Essential Cookies</b>
-              <p>
-                These cookies are essential to provide you with services
-                available through our websites and to enable you to use some of
-                their features. Without these cookies, the services that you
-                have asked for cannot be provided, and we only use these cookies
-                to provide you with those services.
-              </p>
-            </td>
-            <td>Axiom, Inc.</td>
-            <td>
-              <p>
-                Because these cookies are strictly necessary to deliver the
-                Websites to you, you cannot refuse them. You can block or delete
-                them by changing your browser settings however, as described
-                below under the heading “Your choices”.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <b>Functionality Cookies</b>
-              <p>
-                <p>
-                  These cookies allow our websites to remember choices you make
-                  when you use them. The purpose of these cookies is to provide
-                  you with a more personal experience and to avoid you having to
-                  re-select your preferences every time you visit our websites.
-                </p>
-              </p>
-            </td>
-            <td>Hubspot, Inc.</td>
-            <td>
-              <p>
-                To refuse these cookies, please follow the instructions below
-                under the heading “Your choices”. Hubspot is used for conducting
-                live chat &amp; support on the website.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <b>Analytics and Performance Cookies</b>
-              <p>
-                These cookies are used to collect information about traffic to
-                our websites and how users use our websites. The information
-                gathered may include the number of visitors to our websites, the
-                websites that referred them to our websites, the pages they
-                visited on our websites, what time of day they visited our
-                websites, whether they have visited our websites before, and
-                other similar information. We use this information to help
-                operate our websites more efficiently, to gather broad
-                demographic information, monitor the level of activity on our
-                websites, and improve the websites.
-              </p>
-            </td>
-            <td>
-              Google Analytics
-              <br />
-              Mixpanel
-              <br />
-              Koala
-              <br />
-              Twitter
-            </td>
-            <td>
-              <p>
-                To refuse these cookies, please follow the instructions below
-                under the heading “Your choices” Alternatively, please click on
-                the relevant opt-out link below:
-              </p>
-              <b>Google Analytics</b>
-              <p>
-                You can find out more information about Google Analytics cookies
-                here and about how Google protects your data here. You can
-                prevent the use of Google Analytics relating to your use of our
-                websites by downloading and installing the browser plugin
-                available here.
-              </p>
-              <b>Mixpanel</b>
-              <p>
-                The subsite, https://cloud.axiom.co (a subsite of axiom.co) uses
-                Mixpanel to help analyze how users use the site. The tool does
-                not use cookies however user data is shared with Mixpanel. In
-                addition to your name and email address, your IP may be
-                transmitted to Mixpanel (though never stored there). This
-                information is then used to evaluate the use of the service as
-                well as compute statistical reports on website activity to help
-                us build a better product.
-              </p>
-              <p>
-                You can find more information about Mixpanel’s privacy policy
-                here: https://mixpanel.com/privacy. If you wish to not share
-                usage information with Mixpanel, please let us know at
-                privacy@axiom.co
-              </p>
-              <b>Koala</b>
-              <p>
-                The Services use cookies and similar technologies such as pixel
-                tags, web beacons, clear GIFs and JavaScript (collectively,
-                “Cookies”) to enable our servers to recognize your web browser,
-                tell us how and when you visit and use our Services, analyze
-                trends, learn about our user base and operate and improve our
-                Services. Cookies are small pieces of data– usually text files –
-                placed on your computer, tablet, phone or similar device when
-                you use that device to access our Services. We may also
-                supplement the information we collect from you with information
-                received from third parties, including third parties that have
-                placed their own Cookies on your device(s). Please note that
-                because of our use of Cookies, the Services do not support “Do
-                Not Track” requests sent from a browser at this time.
-              </p>
-              <b>Twitter</b>
-              <p>
-                Pixels are small amounts of code placed on a web page, in a
-                web-enabled app, or an email. We use pixels, some of which we
-                provide to advertisers to place on their web properties, to
-                learn whether you've interacted with specific web or email
-                content — as many services do. This helps us measure and improve
-                our services and personalize your experience, including the ads
-                you see.
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <div className="flex items-center justify-center w-full px-4 mt-24 text-center">
+      <div className="flex w-full px-4 mt-16 text-center">
         <div className="w-full">
           <h1 className="text-5xl font-bold text-berry-900 dark:text-gray-200">
             Cookies
@@ -150,9 +13,10 @@ export default function Index() {
           </h2>
         </div>
       </div>
+
       <div className="flex w-full px-4 bg-gray-50 dark:bg-gray-900">
         <div className="w-full m-12">
-          <article className="m-12 prose prose-headings:text-berry-900 prose-p:text-berry-700 dark:prose-headings:text-white dark:text-gray-200 max-w-none">
+          <article className="prose dark:prose-invert max-w-none">
             <h2>What are cookies?</h2>
             <p>
               Cookies are small data files that are placed on your computer when
@@ -202,77 +66,69 @@ export default function Index() {
               We use cookies and other tracking technologies in the following
               categories described in the table below.
             </p>
-          </article>
-          <div className="overflow-auto text-sm text-berry-700 dark:text-gray-200">
-            <table className="table-auto">
+
+            <table>
               <thead>
                 <tr>
-                  <td>TYPE OF COOKIE</td>
-                  <td>WHO SERVES THESE COOKIES</td>
-                  <td>HOW TO REFUSE</td>
+                  <th>TYPE OF COOKIE</th>
+                  <th>WHO SERVES THESE COOKIES</th>
+                  <th>HOW TO REFUSE</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>
                     <b>Essential Cookies</b>
-                    <p>
-                      These cookies are essential to provide you with services
-                      available through our websites and to enable you to use
-                      some of their features. Without these cookies, the
-                      services that you have asked for cannot be provided, and
-                      we only use these cookies to provide you with those
-                      services.
-                    </p>
+                    <br />
+                    <br />
+                    These cookies are essential to provide you with services
+                    available through our websites and to enable you to use some
+                    of their features. Without these cookies, the services that
+                    you have asked for cannot be provided, and we only use these
+                    cookies to provide you with those services.
                   </td>
                   <td>Axiom, Inc.</td>
                   <td>
-                    <p>
-                      Because these cookies are strictly necessary to deliver
-                      the Websites to you, you cannot refuse them. You can block
-                      or delete them by changing your browser settings however,
-                      as described below under the heading “Your choices”.
-                    </p>
+                    Because these cookies are strictly necessary to deliver the
+                    Websites to you, you cannot refuse them. You can block or
+                    delete them by changing your browser settings however, as
+                    described below under the heading “Your choices”.
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <b>Functionality Cookies</b>
-                    <p>
-                      <p>
-                        These cookies allow our websites to remember choices you
-                        make when you use them. The purpose of these cookies is
-                        to provide you with a more personal experience and to
-                        avoid you having to re-select your preferences every
-                        time you visit our websites.
-                      </p>
-                    </p>
+                    <br />
+                    <br />
+                    These cookies allow our websites to remember choices you
+                    make when you use them. The purpose of these cookies is to
+                    provide you with a more personal experience and to avoid you
+                    having to re-select your preferences every time you visit
+                    our websites.
                   </td>
                   <td>Hubspot, Inc.</td>
                   <td>
-                    <p>
-                      To refuse these cookies, please follow the instructions
-                      below under the heading “Your choices”. Hubspot is used
-                      for conducting live chat &amp; support on the website.
-                    </p>
+                    To refuse these cookies, please follow the instructions
+                    below under the heading “Your choices”. Hubspot is used for
+                    conducting live chat &amp; support on the website.
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <b>Analytics and Performance Cookies</b>
-                    <p>
-                      These cookies are used to collect information about
-                      traffic to our websites and how users use our websites.
-                      The information gathered may include the number of
-                      visitors to our websites, the websites that referred them
-                      to our websites, the pages they visited on our websites,
-                      what time of day they visited our websites, whether they
-                      have visited our websites before, and other similar
-                      information. We use this information to help operate our
-                      websites more efficiently, to gather broad demographic
-                      information, monitor the level of activity on our
-                      websites, and improve the websites.
-                    </p>
+                    <br />
+                    <br />
+                    These cookies are used to collect information about traffic
+                    to our websites and how users use our websites. The
+                    information gathered may include the number of visitors to
+                    our websites, the websites that referred them to our
+                    websites, the pages they visited on our websites, what time
+                    of day they visited our websites, whether they have visited
+                    our websites before, and other similar information. We use
+                    this information to help operate our websites more
+                    efficiently, to gather broad demographic information,
+                    monitor the level of activity on our websites, and improve
+                    the websites.
                   </td>
                   <td>
                     Google Analytics
@@ -284,71 +140,70 @@ export default function Index() {
                     Twitter
                   </td>
                   <td>
-                    <p>
-                      To refuse these cookies, please follow the instructions
-                      below under the heading “Your choices” Alternatively,
-                      please click on the relevant opt-out link below:
-                    </p>
+                    To refuse these cookies, please follow the instructions
+                    below under the heading “Your choices” Alternatively, please
+                    click on the relevant opt-out link below:
+                    <br />
+                    <br />
                     <b>Google Analytics</b>
-                    <p>
-                      You can find out more information about Google Analytics
-                      cookies here and about how Google protects your data here.
-                      You can prevent the use of Google Analytics relating to
-                      your use of our websites by downloading and installing the
-                      browser plugin available here.
-                    </p>
+                    <br />
+                    You can find out more information about Google Analytics
+                    cookies here and about how Google protects your data here.
+                    You can prevent the use of Google Analytics relating to your
+                    use of our websites by downloading and installing the
+                    browser plugin available here.
+                    <br />
+                    <br />
                     <b>Mixpanel</b>
-                    <p>
-                      The subsite, https://cloud.axiom.co (a subsite of
-                      axiom.co) uses Mixpanel to help analyze how users use the
-                      site. The tool does not use cookies however user data is
-                      shared with Mixpanel. In addition to your name and email
-                      address, your IP may be transmitted to Mixpanel (though
-                      never stored there). This information is then used to
-                      evaluate the use of the service as well as compute
-                      statistical reports on website activity to help us build a
-                      better product.
-                    </p>
-                    <p>
-                      You can find more information about Mixpanel’s privacy
-                      policy here: https://mixpanel.com/privacy. If you wish to
-                      not share usage information with Mixpanel, please let us
-                      know at privacy@axiom.co
-                    </p>
+                    <br />
+                    The subsite, https://cloud.axiom.co (a subsite of axiom.co)
+                    uses Mixpanel to help analyze how users use the site. The
+                    tool does not use cookies however user data is shared with
+                    Mixpanel. In addition to your name and email address, your
+                    IP may be transmitted to Mixpanel (though never stored
+                    there). This information is then used to evaluate the use of
+                    the service as well as compute statistical reports on
+                    website activity to help us build a better product.
+                    <br />
+                    <br />
+                    You can find more information about Mixpanel’s privacy
+                    policy here: https://mixpanel.com/privacy. If you wish to
+                    not share usage information with Mixpanel, please let us
+                    know at privacy@axiom.co
+                    <br />
+                    <br />
                     <b>Koala</b>
-                    <p>
-                      The Services use cookies and similar technologies such as
-                      pixel tags, web beacons, clear GIFs and JavaScript
-                      (collectively, “Cookies”) to enable our servers to
-                      recognize your web browser, tell us how and when you visit
-                      and use our Services, analyze trends, learn about our user
-                      base and operate and improve our Services. Cookies are
-                      small pieces of data– usually text files – placed on your
-                      computer, tablet, phone or similar device when you use
-                      that device to access our Services. We may also supplement
-                      the information we collect from you with information
-                      received from third parties, including third parties that
-                      have placed their own Cookies on your device(s). Please
-                      note that because of our use of Cookies, the Services do
-                      not support “Do Not Track” requests sent from a browser at
-                      this time.
-                    </p>
+                    <br />
+                    The Services use cookies and similar technologies such as
+                    pixel tags, web beacons, clear GIFs and JavaScript
+                    (collectively, “Cookies”) to enable our servers to recognize
+                    your web browser, tell us how and when you visit and use our
+                    Services, analyze trends, learn about our user base and
+                    operate and improve our Services. Cookies are small pieces
+                    of data– usually text files – placed on your computer,
+                    tablet, phone or similar device when you use that device to
+                    access our Services. We may also supplement the information
+                    we collect from you with information received from third
+                    parties, including third parties that have placed their own
+                    Cookies on your device(s). Please note that because of our
+                    use of Cookies, the Services do not support “Do Not Track”
+                    requests sent from a browser at this time.
+                    <br />
+                    <br />
                     <b>Twitter</b>
-                    <p>
-                      Pixels are small amounts of code placed on a web page, in
-                      a web-enabled app, or an email. We use pixels, some of
-                      which we provide to advertisers to place on their web
-                      properties, to learn whether you've interacted with
-                      specific web or email content — as many services do. This
-                      helps us measure and improve our services and personalize
-                      your experience, including the ads you see.
-                    </p>
+                    <br />
+                    Pixels are small amounts of code placed on a web page, in a
+                    web-enabled app, or an email. We use pixels, some of which
+                    we provide to advertisers to place on their web properties,
+                    to learn whether you've interacted with specific web or
+                    email content — as many services do. This helps us measure
+                    and improve our services and personalize your experience,
+                    including the ads you see.
                   </td>
                 </tr>
               </tbody>
             </table>
-          </div>
-          <article className="m-12 prose prose-headings:text-berry-900 prose-p:text-berry-700 dark:prose-headings:text-white dark:text-gray-200 max-w-none">
+
             <p>
               You can control these cookies as described in the Your choices
               section below. The third parties who serve cookies listed in the
@@ -380,8 +235,8 @@ export default function Index() {
               us by email at privacy@axiom.co.
             </p>
           </article>
-          <div className="py-8 text-center text-slate-500">
-            [As of August 20th, 2020.]
+          <div className="py-8 text-sm text-center text-slate-500">
+            [As of August 20th, 2020]
           </div>
         </div>
       </div>

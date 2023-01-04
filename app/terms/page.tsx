@@ -1,7 +1,7 @@
 export default function Index() {
   return (
     <>
-      <div className="flex items-center justify-center w-full px-4 mt-24 text-center">
+      <div className="flex w-full px-4 mt-16 text-center">
         <div className="w-full">
           <h1 className="text-5xl font-bold text-berry-900 dark:text-gray-200">
             Terms of Service
@@ -17,9 +17,9 @@ export default function Index() {
           </h2>
         </div>
       </div>
-      <div className="flex items-center justify-center w-full px-4 text-left bg-gray-50 dark:bg-gray-900">
-        <div className="w-full">
-          <article className="m-12 prose prose-headings:text-berry-900 prose-p:text-berry-700 dark:prose-headings:text-white dark:text-gray-200 max-w-none">
+      <div className="flex w-full px-4 bg-gray-50 dark:bg-gray-900">
+        <div className="w-full m-12">
+          <article className="prose dark:prose-invert max-w-none">
             <p>
               This Terms of Use Agreement (the “Terms of Use“) applies to
               axiom.co and all other web sites, features and online services
@@ -1139,8 +1139,8 @@ export default function Index() {
               </li>
             </ul>
           </article>
-          <div className="py-8 text-center text-slate-500">
-            [As of August 20th, 2020.]
+          <div className="py-8 text-sm text-center text-slate-500">
+            [As of August 20th, 2020]
           </div>
         </div>
       </div>
