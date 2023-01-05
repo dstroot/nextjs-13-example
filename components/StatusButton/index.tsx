@@ -33,9 +33,12 @@ type Data = {
   };
 };
 
-export const StatusBar = ({ statusData }: { statusData: Data }) => {
+export const StatusButton = ({ statusData }: { statusData: Data }) => {
   let indicator = "";
 
+  /*
+    Status Colors 
+  */
   switch (statusData.status.indicator) {
     case "none":
       indicator = "bg-green-500";

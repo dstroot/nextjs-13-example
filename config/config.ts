@@ -6,7 +6,7 @@
 // can set default values for variables coming from the environment. In this way,
 // you guarantee a value will be present for the execution of your program:
 
-export const settings = {
+export const config = {
   nodeEnv: process.env.NODE_ENV ?? "development",
   openAIKey: process.env.OPENAI_API_KEY ?? "",
   statusPage: process.env.STATUS_PAGE_ID ?? "",

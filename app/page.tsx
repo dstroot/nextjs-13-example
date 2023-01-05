@@ -13,6 +13,9 @@ export default async function Index() {
         </p>
       </div>
 
+      {/*
+        Big Rounded Section
+      */}
       <div className="sm:mx-8 my-8 text-sm grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-900 dark:text-[#AAB7D2] p-8 lg:p-12 rounded-[25px] bg-gray-100 dark:bg-[#09101F] relative bg-clip-padding border-[2px] border-transparent before:content-[''] before:absolute before:left-0 before:right-0 before:bottom-0 before:top-0 before:-m-[2px] before:z-[-1] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500">
         <div className="flex items-start space-x-2">
           <div className="flex flex-col space-y-4">
@@ -147,6 +150,9 @@ export default async function Index() {
         </div>
       </div>
 
+      {/* 
+        Big Button 
+      */}
       <div className="flex justify-center mb-12">
         <a href="https://cloud.axiom.co">
           <div className="relative rounded-lg pointer-events-none shadow-lgDark ">
@@ -177,9 +183,12 @@ export default async function Index() {
         </a>
       </div>
 
+      {/* 
+        Items Section
+      */}
       <div className="flex justify-center w-full mb-12">
-        <div className="lg:w-full flex flex-col lg:flex-row items-center justify-around lg:space-y-0 bg-[#0D1423] border border-[#ffffff22] rounded-[8px] space-y-4 p-8 md:p-4">
-          <div className="w-[240px] lg:w-auto flex space-x-2 items-center justify-start px-4 py-2 rounded-[8px]  undefined">
+        <div className="lg:w-full flex flex-col lg:flex-row items-center justify-around lg:space-y-0 dark:bg-[#0D1423] border border-gray-300 dark:border-[#ffffff22] rounded-[25px] space-y-4 p-8 md:p-4">
+          <div className="w-[240px] lg:w-auto flex space-x-2 items-center justify-start px-4 py-2 rounded-[8px]">
             <svg
               className="w-6 h-6 text-[#8CBDFF]"
               width="28"
@@ -209,7 +218,7 @@ export default async function Index() {
                 </linearGradient>
               </defs>
             </svg>
-            <h4 className="text-sm font-medium text-white md:text-base">
+            <h4 className="text-sm font-medium text-gray-900 dark:text-white md:text-base">
               Unlimited Users
             </h4>
           </div>
@@ -243,7 +252,7 @@ export default async function Index() {
                 </linearGradient>
               </defs>
             </svg>
-            <h4 className="text-sm font-medium text-white md:text-base">
+            <h4 className="text-sm font-medium text-gray-900 dark:text-white md:text-base">
               Unlimited Sources
             </h4>
           </div>
@@ -277,7 +286,7 @@ export default async function Index() {
                 </linearGradient>
               </defs>
             </svg>
-            <h4 className="text-sm font-medium text-white md:text-base">
+            <h4 className="text-sm font-medium text-gray-900 dark:text-white md:text-base">
               Unlimited Hosts
             </h4>
           </div>
@@ -311,7 +320,7 @@ export default async function Index() {
                 </linearGradient>
               </defs>
             </svg>
-            <h4 className="text-sm font-medium text-white md:text-base">
+            <h4 className="text-sm font-medium text-gray-900 dark:text-white md:text-base">
               Unlimited Agents
             </h4>
           </div>
@@ -345,30 +354,33 @@ export default async function Index() {
                 </linearGradient>
               </defs>
             </svg>
-            <h4 className="text-sm font-medium text-white md:text-base">
+            <h4 className="text-sm font-medium text-gray-900 dark:text-white md:text-base">
               Unlimited Dashboards
             </h4>
           </div>
         </div>
       </div>
 
-      <div className="w-full max-w-[1237px] mb-16">
+      {/*
+        Bottom Section
+      */}
+      <div className="w-full mb-16">
         <div
-          className="border border-[#ffffff22] rounded-[8px] md:rounded-[40px] p-4 lg:p-16 bg-gradient-to-b from-[#D9D9D905] shadow-lgDark bg-[300%_auto] lg:bg-cover"
+          className="border border-gray-300 dark:border-[#ffffff22] rounded-[8px] md:rounded-[40px] p-4 lg:p-16 bg-gradient-to-b from-[#D9D9D905] shadow-lgDark bg-[300%_auto] lg:bg-cover"
           // style="background-image:url(/99/bottom-grid.svg);background-position:top;background-repeat:no-repeat"
         >
           <div className="flex items-center justify-center w-full px-4 pt-4 pb-4 lg:pb-8">
             <div className="w-full max-w-[1237px]">
-              <div className="grid lg:grid-cols-[1.4fr_1fr] md:gap-32 pb-8 lg:pb-16 items-center">
-                <div className="text-[#AAB7D2] text-sm text-center lg:text-left flex flex-col space-y-4 lg:space-y-8">
+              <div className="grid lg:grid-cols-[1.4fr_1fr] pb-8 lg:pb-16 items-center">
+                <div className="flex flex-col space-y-4 text-sm text-center text-gray-700 dark:text-white lg:text-left lg:space-y-8">
                   <div className="flex flex-col space-y-4">
                     <h4
                       // style="background:linear-gradient(90.73deg, #8CBDFF 0%, #BE99FF 10%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-shadow:0px 0px 22px rgba(185, 158, 255, 0.51)"
-                      className="text-base leading-normal uppercase"
+                      className="text-2xl font-semibold leading-normal text-transparent uppercase bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text"
                     >
                       Datastore
                     </h4>
-                    <h1 className="text-2xl font-bold text-white lg:text-4xl lg:whitespace-nowrap">
+                    <h1 className="text-2xl font-bold text-gray-700 dark:text-white lg:text-4xl lg:whitespace-nowrap">
                       Built from the ground-up for logging
                     </h1>
                   </div>
@@ -386,9 +398,8 @@ export default async function Index() {
                     </p>
                   </div>
                 </div>
-                <div></div>
               </div>
-              <div className="text-sm grid grid-cols-1 md:grid-cols-3 gap-8 text-[#AAB7D2] p-8 lg:p-12 rounded-[25px]  bg-[#09101F] relative bg-clip-padding border-[1px] border-transparent before:content-[''] before:absolute before:left-0 before:right-0 before:bottom-0 before:top-0 before:-m-[1px] before:z-[-1] before:rounded-[inherit] before:bg-gradient-to-r before:from-[#8CBDFF] before:to-[#BE99FF]">
+              <div className="sm:mx-8 text-sm grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-900 dark:text-[#AAB7D2] p-8 lg:p-12 rounded-[25px] bg-gray-100 dark:bg-[#09101F] relative bg-clip-padding border-[2px] border-transparent before:content-[''] before:absolute before:left-0 before:right-0 before:bottom-0 before:top-0 before:-m-[2px] before:z-[-1] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500">
                 <div className="flex items-start space-x-2">
                   <div className="flex flex-col space-y-4">
                     <div className="flex items-center space-x-2">
@@ -421,7 +432,7 @@ export default async function Index() {
                           </linearGradient>
                         </defs>
                       </svg>
-                      <h4 className="text-base pt-[2px] font-semibold text-white">
+                      <h4 className="text-base pt-[2px] font-semibold text-gray-800 dark:text-white">
                         Coordination free ingest
                       </h4>
                     </div>
@@ -465,7 +476,7 @@ export default async function Index() {
                           </linearGradient>
                         </defs>
                       </svg>
-                      <h4 className="text-base pt-[2px] font-semibold text-white">
+                      <h4 className="text-base pt-[2px] font-semibold text-gray-800 dark:text-white">
                         Object storage by default
                       </h4>
                     </div>
@@ -509,7 +520,7 @@ export default async function Index() {
                           </linearGradient>
                         </defs>
                       </svg>
-                      <h4 className="text-base pt-[2px] font-semibold text-white">
+                      <h4 className="text-base pt-[2px] font-semibold text-gray-800 dark:text-white">
                         Serverless querying
                       </h4>
                     </div>
@@ -524,14 +535,11 @@ export default async function Index() {
               </div>
             </div>
           </div>
-          <p className="px-4 py-8 md:pt-14 text-[#AAB7D2] text-center md:text-left">
-            <span className="text-white">
-              Together, these architectural decisions make our datastore
-              incredibly efficient without compromising on features or
-              durability.
-            </span>{" "}
-            <br />
-            <br />
+          <p className="px-4 mt-4 text-center text-gray-900 dark:text-white md:text-left">
+            Together, these architectural decisions make our datastore
+            incredibly efficient without compromising on features or durability.
+          </p>
+          <p className="px-4 mt-4 text-center text-gray-900 dark:text-white md:text-left">
             What this means for you is that the team at Axiom can enable new
             levels of logging for even small customers, as well as enable more
             kinds of data to be logged and used by your team.

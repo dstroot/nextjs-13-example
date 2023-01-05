@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
 import { Footer2 } from "../components/Footer2";
-import { settings } from "../config/configuration";
+import { config } from "../config/config";
 import { Inter } from "@next/font/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 // Get Atlassian StatusPage data from public API
 async function getStatus() {
   const res = await fetch(
-    `https://${settings.statusPage}.statuspage.io/api/v2/summary.json`,
+    `https://${config.statusPage}.statuspage.io/api/v2/summary.json`,
     { next: { revalidate: 30 } }
   );
   return res.json();

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { footerItems } from "./footerItems";
-import { StatusBar } from "../StatusBar";
+import { StatusButton } from "../StatusButton";
 import { Disclosure } from "@headlessui/react";
 
 type Data = {
@@ -376,7 +376,7 @@ export const Footer2 = ({ statusData }: { statusData: Data }) => {
           {/* 
             Atlassian Status Indicator
           */}
-          <StatusBar statusData={statusData}></StatusBar>
+          <StatusButton statusData={statusData}></StatusButton>
 
           <div className="flex flex-col space-y-6 md:space-y-0">
             {/* 
