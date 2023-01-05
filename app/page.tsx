@@ -366,8 +366,13 @@ export default async function Index() {
       */}
       <div className="w-full mb-16">
         <div
-          className="border border-gray-300 dark:border-[#ffffff22] rounded-[8px] md:rounded-[40px] p-4 lg:p-16 bg-gradient-to-b from-[#D9D9D905] shadow-lgDark bg-[300%_auto] lg:bg-cover"
-          // style="background-image:url(/99/bottom-grid.svg);background-position:top;background-repeat:no-repeat"
+          className="border border-gray-300 dark:border-[#ffffff22] rounded-[8px] md:rounded-[40px] p-4 lg:p-12 bg-gradient-to-b from-[#D9D9D905] to-[#ba3a3a05] shadow-lgDark bg-[300%_auto] lg:bg-cover"
+          style={{
+            backgroundImage: "url(/img/grid-dash.svg)",
+            backgroundPosition: "top",
+            backgroundRepeat: "revert-layer",
+            zIndex: "0",
+          }}
         >
           <div className="flex items-center justify-center w-full px-4 pt-4 pb-4 lg:pb-8">
             <div className="w-full max-w-[1237px]">
@@ -375,7 +380,7 @@ export default async function Index() {
                 <div className="flex flex-col space-y-4 text-sm text-center text-gray-700 dark:text-white lg:text-left lg:space-y-8">
                   <div className="flex flex-col space-y-4">
                     <h4
-                      // style="background:linear-gradient(90.73deg, #8CBDFF 0%, #BE99FF 10%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-shadow:0px 0px 22px rgba(185, 158, 255, 0.51)"
+                      // style={{"background:linear-gradient(90.73deg, #8CBDFF 0%, #BE99FF 10%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-shadow:0px 0px 22px rgba(185, 158, 255, 0.51)"}}
                       className="text-2xl font-semibold leading-normal text-transparent uppercase bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text"
                     >
                       Datastore
@@ -399,7 +404,7 @@ export default async function Index() {
                   </div>
                 </div>
               </div>
-              <div className="sm:mx-8 text-sm grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-900 dark:text-[#AAB7D2] p-8 lg:p-12 rounded-[25px] bg-gray-100 dark:bg-[#09101F] relative bg-clip-padding border-[2px] border-transparent before:content-[''] before:absolute before:left-0 before:right-0 before:bottom-0 before:top-0 before:-m-[2px] before:z-[-1] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500">
+              <div className="text-sm grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-900 dark:text-[#AAB7D2] p-8 lg:p-12 rounded-[25px] bg-gray-100 dark:bg-[#09101F] relative bg-clip-padding border-[2px] border-transparent before:content-[''] before:absolute before:left-0 before:right-0 before:bottom-0 before:top-0 before:-m-[2px] before:z-[-1] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500">
                 <div className="flex items-start space-x-2">
                   <div className="flex flex-col space-y-4">
                     <div className="flex items-center space-x-2">
@@ -533,17 +538,18 @@ export default async function Index() {
                   </div>
                 </div>
               </div>
+              <p className="px-4 mt-12 text-center text-gray-900 dark:text-white md:text-left">
+                Together, these architectural decisions make our datastore
+                incredibly efficient without compromising on features or
+                durability.
+              </p>
+              <p className="px-4 mt-4 text-center text-gray-900 dark:text-white md:text-left">
+                What this means for you is that the team at Axiom can enable new
+                levels of logging for even small customers, as well as enable
+                more kinds of data to be logged and used by your team.
+              </p>{" "}
             </div>
           </div>
-          <p className="px-4 mt-4 text-center text-gray-900 dark:text-white md:text-left">
-            Together, these architectural decisions make our datastore
-            incredibly efficient without compromising on features or durability.
-          </p>
-          <p className="px-4 mt-4 text-center text-gray-900 dark:text-white md:text-left">
-            What this means for you is that the team at Axiom can enable new
-            levels of logging for even small customers, as well as enable more
-            kinds of data to be logged and used by your team.
-          </p>
         </div>
       </div>
     </>
