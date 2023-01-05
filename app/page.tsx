@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default async function Index() {
   return (
     <>
@@ -380,7 +382,6 @@ export default async function Index() {
                 <div className="flex flex-col space-y-4 text-sm text-center text-gray-700 dark:text-white lg:text-left lg:space-y-8">
                   <div className="flex flex-col space-y-4">
                     <h4
-                      // style={{"background:linear-gradient(90.73deg, #8CBDFF 0%, #BE99FF 10%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-shadow:0px 0px 22px rgba(185, 158, 255, 0.51)"}}
                       className="text-2xl font-semibold leading-normal text-transparent uppercase bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text"
                     >
                       Datastore
