@@ -15,7 +15,10 @@ export function NavBar() {
         Place nav inside header 
       */}
       <header className="container flex items-center justify-between px-4 py-4 mx-auto font-semibold leading-6 lg:py-6">
-        <Link className="text-primary text-hover" href="/">
+        <Link
+          className="transition duration-300 text-primary text-hover"
+          href="/"
+        >
           <svg
             className="inline mb-1 stroke-current text-primary-500"
             xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +59,7 @@ export function NavBar() {
             <button
               type="button"
               onClick={() => setIsOpen(true)}
-              className="flex items-center justify-center w-8 h-8 text-primary text-hover md:hidden focus:outline-none"
+              className="flex items-center justify-center w-8 h-8 transition duration-300 text-primary text-hover md:hidden focus:outline-none"
             >
               <span className="sr-only">Navigation</span>
               <svg
@@ -83,7 +86,11 @@ export function NavBar() {
               {menu.map((item, index) => {
                 return (
                   <li key={`${index}`}>
-                    <NavLink href={item.path} exact className="text-hover">
+                    <NavLink
+                      href={item.path}
+                      exact
+                      className="transition duration-300 text-hover"
+                    >
                       {item.name}
                       {item.new ? (
                         <span className="ml-2 font-medium text-xs leading-5 rounded-full text-new px-2 py-0.5 ">
