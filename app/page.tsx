@@ -213,8 +213,8 @@ export default async function Index() {
                   y2="8.686"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#8CBDFF"></stop>
-                  <stop offset="1" stopColor="#BE99FF"></stop>
+                  <stop stopColor="#8b5cf6"></stop>
+                  <stop offset="1" stopColor="#d946ef"></stop>
                 </linearGradient>
               </defs>
             </svg>
@@ -247,8 +247,8 @@ export default async function Index() {
                   y2="8.686"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#8CBDFF"></stop>
-                  <stop offset="1" stopColor="#BE99FF"></stop>
+                  <stop stopColor="#8b5cf6"></stop>
+                  <stop offset="1" stopColor="#d946ef"></stop>
                 </linearGradient>
               </defs>
             </svg>
@@ -281,8 +281,8 @@ export default async function Index() {
                   y2="8.686"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#8CBDFF"></stop>
-                  <stop offset="1" stopColor="#BE99FF"></stop>
+                  <stop stopColor="#8b5cf6"></stop>
+                  <stop offset="1" stopColor="#d946ef"></stop>
                 </linearGradient>
               </defs>
             </svg>
@@ -315,8 +315,8 @@ export default async function Index() {
                   y2="8.686"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#8CBDFF"></stop>
-                  <stop offset="1" stopColor="#BE99FF"></stop>
+                  <stop stopColor="#8b5cf6"></stop>
+                  <stop offset="1" stopColor="#d946ef"></stop>
                 </linearGradient>
               </defs>
             </svg>
@@ -349,8 +349,8 @@ export default async function Index() {
                   y2="8.686"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#8CBDFF"></stop>
-                  <stop offset="1" stopColor="#BE99FF"></stop>
+                  <stop stopColor="#8b5cf6"></stop>
+                  <stop offset="1" stopColor="#d946ef"></stop>
                 </linearGradient>
               </defs>
             </svg>
