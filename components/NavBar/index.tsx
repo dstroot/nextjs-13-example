@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { menu } from "./menu";
+import { menuItems } from "../../constants/constants";
 import { NavLink } from "./navlink";
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
@@ -83,7 +83,7 @@ export function NavBar() {
           */}
           <nav className="hidden md:flex">
             <ul className="flex items-center space-x-8">
-              {menu.map((item, index) => {
+              {menuItems.map((item, index) => {
                 return (
                   <li key={`${index}`}>
                     <NavLink
@@ -161,7 +161,7 @@ export function NavBar() {
                 </svg>
               </button>
               <ul className="mt-4 space-y-6">
-                {menu.map((item, index) => {
+                {menuItems.map((item, index) => {
                   return (
                     <li key={`${index}`}>
                       <NavLink

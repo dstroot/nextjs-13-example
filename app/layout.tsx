@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
 import { Footer2 } from "../components/Footer2";
-import { config } from "../config/config";
+import { config } from "../constants/constants";
 import { Inter } from "@next/font/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });

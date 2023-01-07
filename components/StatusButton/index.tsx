@@ -59,7 +59,7 @@ export const StatusButton = ({ statusData }: { statusData: Data }) => {
       indicator = "bg-yellow-500";
       break;
     default:
-      indicator = "";
+      indicator = "bg-gray-500";
   }
 
   return (

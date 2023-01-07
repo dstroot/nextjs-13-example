@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { footerItems } from "./footerItems";
+import { footerItems } from "../../constants/constants";
 import { StatusButton } from "../StatusButton";
 import { Disclosure } from "@headlessui/react";
 

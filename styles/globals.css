@@ -50,22 +50,3 @@
       conic-gradient(transparent -45deg, #d946ef 0deg, transparent 75deg);
   }
 }
-
-.basic .none {
-  background-color: #2ecc71;
-}
-.basic .operational {
-  background-color: #2ecc71;
-}
-.basic .minor {
-  background-color: #f1c40f;
-}
-.basic .major {
-  background-color: #e67e22;
-}
-.basic .critical {
-  background-color: #e74c3c;
-}
-.basic .maintenance {
-  background-color: #3498db;
-}
