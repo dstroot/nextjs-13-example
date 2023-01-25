@@ -8,6 +8,10 @@ import { FiSun } from "react-icons/fi";
 import { FiMoon } from "react-icons/fi";
 import { FiSettings } from "react-icons/fi";
 
+// import { BsSun } from "react-icons/bs";
+// import { BsMoonStars } from "react-icons/bs";
+// import { GrSystem } from "react-icons/gr";
+
 // library
 import { cn } from "../../lib/cn";
 
@@ -36,6 +40,7 @@ export const ThemeSwitch = () => {
           onClick={(e) => setTheme("light")}
         >
           <FiSun />
+          {/* <BsSun /> */}
         </button>
         <button
           id="system"
@@ -49,6 +54,7 @@ export const ThemeSwitch = () => {
           onClick={(e) => setTheme("system")}
         >
           <FiSettings />
+          {/* <GrSystem /> */}
         </button>
         <button
           id="dark"
@@ -59,6 +65,7 @@ export const ThemeSwitch = () => {
           onClick={(e) => setTheme("dark")}
         >
           <FiMoon />
+          {/* <BsMoonStars /> */}
         </button>
       </div>
     </>

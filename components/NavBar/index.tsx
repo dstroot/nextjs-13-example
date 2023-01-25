@@ -104,7 +104,7 @@ export function NavBar() {
                   </li>
                 );
               })}
-              <li>
+              <li className="text-base">
                 <ThemeSwitch />
               </li>
             </ul>
@@ -187,7 +187,7 @@ export function NavBar() {
                     </li>
                   );
                 })}
-                <li>
+                <li className="text-base">
                   <ThemeSwitch />
                 </li>
               </ul>
