@@ -1,8 +1,14 @@
 import "../styles/globals.css";
+
+// components
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
-import { Footer2 } from "../components/Footer2";
+import { Providers } from "../components/Providers";
+
+// data
 import { config } from "../constants/constants";
+
+// fonts
 import { Inter } from "@next/font/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -30,12 +36,13 @@ export default async function RootLayout({
       <body
         className={`${inter.variable} font-sans antialiased text-gray-700 dark:text-gray-100 transition-colors bg-white dark:bg-gray-900`}
       >
-        <div className="flex flex-col min-h-screen">
-          <NavBar />
-          <main className="container flex-grow px-4 mx-auto">{children}</main>
-          <Footer />
-          <Footer2 statusData={statusData} />
-        </div>
+        <Providers>
+          <div className="flex flex-col min-h-screen">
+            <NavBar />
+            <main className="container flex-grow px-4 mx-auto">{children}</main>
+            <Footer statusData={statusData} />
+          </div>
+        </Providers>
       </body>
     </html>
   );

@@ -6,6 +6,9 @@ import { NavLink } from "./navlink";
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 
+// components
+import { ThemeSwitch } from "../ThemeSwitch";
+
 export function NavBar() {
   let [isOpen, setIsOpen] = useState(false); // state of mobile menu
 
@@ -101,6 +104,9 @@ export function NavBar() {
                   </li>
                 );
               })}
+              <li>
+                <ThemeSwitch />
+              </li>
             </ul>
           </nav>
         </div>
@@ -181,6 +187,9 @@ export function NavBar() {
                     </li>
                   );
                 })}
+                <li>
+                  <ThemeSwitch />
+                </li>
               </ul>
             </Dialog.Panel>
           </Transition.Child>
