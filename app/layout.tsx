@@ -1,12 +1,12 @@
-import "../styles/globals.css";
+import "@/styles/globals.css";
 
 // components
-import { NavBar } from "../components/NavBar";
-import { Footer } from "../components/Footer";
-import { Providers } from "../components/Providers";
+import { NavBar } from "@/components/NavBar";
+import { Footer } from "@/components/Footer";
+import { Providers } from "@/components/Providers";
 
 // data
-import { config } from "../constants/constants";
+import { config } from "@/data/constants";
 
 // fonts
 import { Inter } from "@next/font/google";

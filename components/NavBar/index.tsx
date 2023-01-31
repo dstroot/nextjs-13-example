@@ -1,13 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { menuItems } from "../../constants/constants";
+import { menuItems } from "@/data/constants";
 import { NavLink } from "./navlink";
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 
 // components
-import { ThemeSwitch } from "../ThemeSwitch";
+import { ThemeSwitch } from "@/components/ThemeSwitch";
 
 export function NavBar() {
   let [isOpen, setIsOpen] = useState(false); // state of mobile menu

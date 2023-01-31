@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { footerItems } from "../../constants/constants";
-import { StatusButton } from "../StatusButton";
+import { footerItems } from "@/data/constants";
+import { StatusButton } from "@/components/StatusButton";
 import { Disclosure } from "@headlessui/react";
 
 type Data = {

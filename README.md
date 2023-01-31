@@ -29,8 +29,22 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Key Ideas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Learn Typescript. The application should be written 100% in Typescript and we want to take advantage of TS tooling.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+By setting a base URL and paths it will make our imports much easier:
+
+```json
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/pages/*": ["pages/*"],
+      "@/lib/*": ["lib/*"],
+      "@/styles/*": ["styles/*"],
+      "@/data/*": ["data/*"]
+    },
+```
+
+2. Your 404 page can be active and simply redirect you to home.
+3. "Providers" pattern for Theme and Framer Motion
