@@ -11,7 +11,7 @@ specifiers:
   autoprefixer: ^10.4.13
   eslint: 8.33.0
   eslint-config-next: 13.1.6
-  framer-motion: ^8.5.5
+  framer-motion: ^9.0.1
   next: 13.1.6
   next-themes: ^0.2.1
   openai: ^3.1.0
@@ -34,7 +34,7 @@ dependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
   eslint: 8.33.0
   eslint-config-next: 13.1.6_4vsywjlpuriuw3tl5oq6zy5a64
-  framer-motion: 8.5.5_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 9.0.1_biqbaboplfbrettd7655fr4n2y
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
   next-themes: 0.2.1_3vryta7zmbcsw4rrqf4axjqggm
   openai: 3.1.0
@@ -1408,8 +1408,8 @@ packages:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: false
 
-  /framer-motion/8.5.5_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-5IDx5bxkjWHWUF3CVJoSyUVOtrbAxtzYBBowRE2uYI/6VYhkEBD+rbTHEGuUmbGHRj6YqqSfoG7Aa1cLyWCrBA==}
+  /framer-motion/9.0.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-0EP7+b/hnsbrFOum9zU+23Fq2cJJrLOqv/yJ26fIzK4CC33ZAjXZGi1/XyblbgnUF0cxZ/SEDj5IYHeQo42qNg==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
