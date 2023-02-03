@@ -34,16 +34,21 @@ export default async function RootLayout({
     <html lang="en">
       <head />
       <body
-        className={`${inter.variable} font-sans antialiased text-gray-700 dark:text-gray-100 transition-colors bg-white dark:bg-gray-900`}
+        className={`${inter.variable} font-sans antialiased transition-colors bg-white dark:bg-gray-900 min-h-screen grid grid-rows-[auto_1fr_auto]`}
       >
         <Providers>
-          <div className="flex flex-col min-h-screen">
-            <NavBar />
-            <main className="container flex-grow px-4 mx-auto">{children}</main>
-            <Footer statusData={statusData} />
-          </div>
+          <NavBar />
+          <main className="container px-4 mx-auto">{children}</main>
+          <Footer statusData={statusData} />
         </Providers>
       </body>
     </html>
   );
 }
+
+/*
+Use grid instead of flex for sticky footer
+
+min-h-screen grid grid-rows-[auto_1fr_auto]
+
+*/
