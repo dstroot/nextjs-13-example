@@ -42,11 +42,7 @@
   }
 
   .bg-buttonConicGradient {
-    background-image: conic-gradient(
-        transparent 135deg,
-        #8b5cf6 180deg,
-        transparent 255deg
-      ),
+    background-image: conic-gradient(transparent 135deg, #8b5cf6 180deg, transparent 255deg),
       conic-gradient(transparent -45deg, #d946ef 0deg, transparent 75deg);
   }
 

@@ -7,34 +7,31 @@
 // you guarantee a value will be present for the execution of your program:
 
 export const config = {
-  nodeEnv: process.env.NODE_ENV ?? "development",
-  openAIKey: process.env.OPENAI_API_KEY ?? "",
-  statusPage: process.env.STATUS_PAGE_ID ?? "",
+  nodeEnv: process.env.NODE_ENV ?? 'development',
+  openAIKey: process.env.OPENAI_API_KEY ?? '',
+  statusPage: process.env.STATUS_PAGE_ID ?? '',
 };
 
 export const menuItems = [
-  { path: "/", name: "Home", new: false },
-  { path: "/about", name: "About", new: false },
-  { path: "/blog", name: "Blog", new: true },
+  { path: '/', name: 'Home', new: false },
+  { path: '/about', name: 'About', new: false },
+  { path: '/blog', name: 'Blog', new: true },
 ];
 
 export const footerItems = {
   resources: [
-    { path: "/", name: "Documentation", internal: true },
-    { path: "/support", name: "Support", internal: true },
-    { path: "/contact", name: "Contact Us", internal: true },
+    { path: '/', name: 'Documentation', internal: true },
+    { path: '/support', name: 'Support', internal: true },
+    { path: '/contact', name: 'Contact Us', internal: true },
   ],
   company: [
-    { path: "/", name: "Home", internal: true },
-    { path: "/blog", name: "Blog", internal: true },
-    { path: "/company#careers", name: "Careers", internal: true },
+    { path: '/', name: 'Home', internal: true },
+    { path: '/blog', name: 'Blog', internal: true },
+    { path: '/company#careers', name: 'Careers', internal: true },
   ],
   legal: [
-    { path: "/privacy", name: "Privacy Policy", internal: true },
-    { path: "/terms", name: "Terms of Service", internal: true },
-    { path: "/cookies", name: "Cookies", internal: true },
+    { path: '/privacy', name: 'Privacy Policy', internal: true },
+    { path: '/terms', name: 'Terms of Service', internal: true },
+    { path: '/cookies', name: 'Cookies', internal: true },
   ],
 };
-
-
-
