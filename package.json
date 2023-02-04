@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.8",
+    "@headlessui/react": "^1.7.9",
     "@headlessui/tailwindcss": "^0.1.2",
     "@next/font": "13.1.6",
     "@tailwindcss/typography": "^0.5.9",
