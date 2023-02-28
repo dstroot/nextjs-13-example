@@ -12,7 +12,6 @@
   "dependencies": {
     "@headlessui/react": "^1.7.12",
     "@headlessui/tailwindcss": "^0.1.2",
-    "@next/font": "13.2.1",
     "@observablehq/runtime": "5",
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "18.14.2",

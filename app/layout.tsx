@@ -9,8 +9,7 @@ import { Providers } from '@/components/Providers';
 // data
 import { config } from '@/data/constants';
 
-// fonts
-import { Inter } from '@next/font/google';
+import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 

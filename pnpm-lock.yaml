@@ -3,7 +3,6 @@ lockfileVersion: 5.4
 specifiers:
   '@headlessui/react': ^1.7.12
   '@headlessui/tailwindcss': ^0.1.2
-  '@next/font': 13.2.1
   '@observablehq/runtime': '5'
   '@tailwindcss/typography': ^0.5.9
   '@types/node': 18.14.2
@@ -29,7 +28,6 @@ specifiers:
 dependencies:
   '@headlessui/react': 1.7.12_biqbaboplfbrettd7655fr4n2y
   '@headlessui/tailwindcss': 0.1.2_tailwindcss@3.2.7
-  '@next/font': 13.2.1
   '@observablehq/runtime': 5.4.3
   '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.7
   '@types/node': 18.14.2
@@ -145,10 +143,6 @@ packages:
     resolution: {integrity: sha512-r0i5rcO6SMAZtqiGarUVMr3k256X0R0j6pEkKg4PxqUW+hG0qgMxRVAJsuoRG5OBFkCOlSfWZJ0mP9fQdCcyNg==}
     dependencies:
       glob: 7.1.7
-    dev: false
-
-  /@next/font/13.2.1:
-    resolution: {integrity: sha512-4sergLt7xp9+mZuKME/xM4tLlHGTcmL7naCq0qCTcAlof6NnttshYgiLOdhSiy0NcI+/yM3BjvdEk++O96UzTg==}
     dev: false
 
   /@next/swc-android-arm-eabi/13.2.1:
