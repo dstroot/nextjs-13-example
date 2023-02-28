@@ -1,4 +1,5 @@
 import '@/styles/globals.css';
+import type { Metadata } from 'next';
 
 // components
 import { NavBar } from '@/components/NavBar';
@@ -12,6 +13,24 @@ import { config } from '@/data/constants';
 import { Inter } from '@next/font/google';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+
+export const metadata = {
+  openGraph: {
+    title: 'Next.js',
+    description: 'The React Framework for the Web',
+    url: 'https://nextjs.org',
+    siteName: 'Next.js',
+    images: [
+      {
+        url: 'https://nextjs.org/og.png',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en-US',
+    type: 'website',
+  },
+};
 
 // Get Atlassian StatusPage data from public API
 async function getStatus() {
@@ -27,7 +46,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
   return (
     <html lang='en'>
-      <head />
+      {/* <head /> */}
       <body
         className={`${inter.variable} font-sans antialiased transition-colors bg-white dark:bg-gray-900 min-h-screen grid grid-rows-[auto_1fr_auto]`}
       >
