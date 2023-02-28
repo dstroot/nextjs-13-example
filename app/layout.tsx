@@ -1,5 +1,4 @@
 import '@/styles/globals.css';
-import type { Metadata } from 'next';
 
 // components
 import { NavBar } from '@/components/NavBar';
@@ -9,13 +8,19 @@ import { Providers } from '@/components/Providers';
 // data
 import { config } from '@/data/constants';
 
-import { Inter } from "next/font/google";
-
+// font
+import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
+// The new Metadata API allows you to define metadata (e.g. meta and
+// link tags inside your HTML head element) with an explicit metadata
+// configuration in any layout or page that is a Server Component.
+// https://beta.nextjs.org/docs/api-reference/metadata
 export const metadata = {
+  title: 'NextJS + TailwindCSS minimalist starter kit',
+  description: 'NextJS + TailwindCSS minimalist starter kit',
   openGraph: {
-    title: 'Next.js',
+    title: 'NextJS + TailwindCSS minimalist starter kit',
     description: 'The React Framework for the Web',
     url: 'https://nextjs.org',
     siteName: 'Next.js',
@@ -61,7 +66,5 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
 /*
 Use grid instead of flex for sticky footer - puts all config onto body or single div:
-
-min-h-screen grid grid-rows-[auto_1fr_auto]
-
+  `min-h-screen grid grid-rows-[auto_1fr_auto]`
 */

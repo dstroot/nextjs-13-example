@@ -3,8 +3,8 @@ export default async function Index() {
     <>
       <div className='w-full'>
         <h1 className='mt-8 pb-4 lg:mt-16 sm:text-center text-[28px] leading-[40px] md:leading-[50px] md:pt-2 md:text-5xl lg:text-6xl lg:leading-[70px] banner:text-7xl banner:leading-[84px] tracking-[-0.05em] md:tracking-[-0.07em] font-extrabold bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text'>
-          You’ve got 99 problems,
-          <br /> logging shouldn’t be one.
+          You&apos;ve got 99 problems,
+          <br /> logging shouldn&apos;t be one.
         </h1>
         <p className='mt-6 md:mt-6 text-lg lg:text-[22px] lg:leading-[33px] text-gray-900 dark:text-[#AAB7D2] sm:text-center'>
           From inception to product market fit and beyond, <br className='hidden lg:inline' />{' '}
@@ -381,7 +381,7 @@ export default async function Index() {
                   </div>
                   <div className='leading-loose lg:text-base'>
                     <p>
-                      Axiom uses it’s own, custom-built, datastore built from the ground-up for
+                      Axiom uses it&apos;s own, custom-built, datastore built from the ground-up for
                       logging.
                       <br />
                       <br />

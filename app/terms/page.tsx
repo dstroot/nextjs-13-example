@@ -146,7 +146,7 @@ export default function Index() {
               Properties or any portion of Axiom Properties, including the Website; (b) you shall
               not frame or utilize framing techniques to enclose any trademark, logo, or other Axiom
               Properties (including images, text, page layout or form) of Axiom; (c) you shall not
-              use any metatags or other “hidden text” using Axiom’s name or trademarks; (d) you
+              use any metatags or other “hidden text” using Axiom&apos;s name or trademarks; (d) you
               shall not modify, translate, adapt, merge, make derivative works of, disassemble,
               decompile, reverse compile or reverse engineer any part of Axiom Properties except to
               the extent the foregoing restrictions are expressly prohibited by applicable law; (e)
@@ -172,8 +172,8 @@ export default function Index() {
               however, that you must first request such information from Axiom and Axiom may, in its
               discretion, either provide such information to you or impose reasonable conditions,
               including a reasonable fee, on such use of the source code for such Axiom Properties
-              to ensure that Axiom’s (and its suppliers’) proprietary rights in such source code are
-              protected.
+              to ensure that Axiom&apos;s (and its suppliers&apos;) proprietary rights in such
+              source code are protected.
             </li>
             <li>
               <b>1.4 Third-Party Materials.</b> As a part of Axiom Properties, you may have access
@@ -285,7 +285,7 @@ export default function Index() {
               in such Third-Party Accounts, personally identifiable information that you post to
               your Third-Party Accounts may be available on and through your Account on Axiom
               Properties. Please note that if a Third-Party Account or associated service becomes
-              unavailable or Axiom’s access to such Third-Party Account is terminated by the
+              unavailable or Axiom&apos;s access to such Third-Party Account is terminated by the
               third-party service provider, then SNS Content will no longer be available on and
               through Axiom Properties. You have the ability to disable the connection between your
               Account and your Third-Party Accounts at any time by accessing the “Settings” section
@@ -320,9 +320,9 @@ export default function Index() {
               on behalf of someone other than yourself. You agree that you shall not have more than
               one Account per platform or SNS at any given time. Axiom reserves the right to remove
               or reclaim any usernames at any time and for any reason, including but not limited to,
-              claims by a third party that a username violates the third party’s rights. You agree
-              not to create an Account or use Axiom Properties if you have been previously removed
-              by Axiom, or if you have been previously banned from any of Axiom Properties.
+              claims by a third party that a username violates the third party&apos;s rights. You
+              agree not to create an Account or use Axiom Properties if you have been previously
+              removed by Axiom, or if you have been previously banned from any of Axiom Properties.
             </li>
             <li>
               <b>2.4 Your Account.</b> Notwithstanding anything to the contrary herein, you
@@ -378,7 +378,7 @@ export default function Index() {
               display, distribute, adapt, modify, re-format, create derivative works of, and
               otherwise commercially or non-commercially exploit in any manner, any and all
               Feedback, and to sublicense the foregoing rights, in connection with the operation and
-              maintenance of Axiom Properties and/or Axiom’s business.
+              maintenance of Axiom Properties and/or Axiom&apos;s business.
             </li>
           </ul>
           <h2>4. User Conduct</h2>
@@ -389,21 +389,21 @@ export default function Index() {
             otherwise make available any Content on or through Axiom Properties that: (i) infringes
             any patent, trademark, trade secret, copyright, right of publicity or other right of any
             person or entity; (ii) is unlawful, threatening, abusive, harassing, defamatory,
-            libelous, deceptive, fraudulent, invasive of another’s privacy, tortious, obscene,
+            libelous, deceptive, fraudulent, invasive of another&apos;s privacy, tortious, obscene,
             offensive, or profane; (iii) constitutes unauthorized or unsolicited advertising, junk
-            or bulk e-mail; (iv) involves commercial activities and/or sales without Axiom’s prior
-            written consent, such as contests, sweepstakes, barter, advertising, or pyramid schemes;
-            (v) impersonates any person or entity, including any employee or representative of
-            Axiom; (vi) interferes with or attempt to interfere with the proper functioning of Axiom
-            Properties or uses Axiom Properties in any way not expressly permitted by the Terms of
-            Use; or (vii) attempts to engage in or engage in, any potentially harmful acts that are
-            directed against Axiom Properties, including but not limited to violating or attempting
-            to violate any security features of Axiom Properties, using manual or automated software
-            or other means to access, “scrape,” “crawl” or “spider” any pages contained in Axiom
-            Properties, introducing viruses, worms, or similar harmful code into Axiom Properties,
-            or interfering or attempting to interfere with use of Axiom Properties by any other
-            user, host or network, including by means of overloading, “flooding,” “spamming,” “mail
-            bombing,” or “crashing” Axiom Properties.
+            or bulk e-mail; (iv) involves commercial activities and/or sales without Axiom&apos;s
+            prior written consent, such as contests, sweepstakes, barter, advertising, or pyramid
+            schemes; (v) impersonates any person or entity, including any employee or representative
+            of Axiom; (vi) interferes with or attempt to interfere with the proper functioning of
+            Axiom Properties or uses Axiom Properties in any way not expressly permitted by the
+            Terms of Use; or (vii) attempts to engage in or engage in, any potentially harmful acts
+            that are directed against Axiom Properties, including but not limited to violating or
+            attempting to violate any security features of Axiom Properties, using manual or
+            automated software or other means to access, “scrape,” “crawl” or “spider” any pages
+            contained in Axiom Properties, introducing viruses, worms, or similar harmful code into
+            Axiom Properties, or interfering or attempting to interfere with use of Axiom Properties
+            by any other user, host or network, including by means of overloading, “flooding,”
+            “spamming,” “mail bombing,” or “crashing” Axiom Properties.
           </p>
           <h2>5. Third-Party Services</h2>
           <ul>
@@ -429,19 +429,19 @@ export default function Index() {
             You agree to indemnify and hold Axiom, its parents, subsidiaries, affiliates, officers,
             employees, agents, partners, suppliers, and licensors (each, a “Axiom Party” and
             collectively, the “Axiom Parties”) harmless from any losses, costs, liabilities and
-            expenses (including reasonable attorneys’ fees) relating to or arising out of any and
-            all of the following: (a) Your Content; (b) your use of, or inability to use, any Axiom
-            Property; (c) your violation of the Agreement; (d) your violation of any rights of
+            expenses (including reasonable attorneys&apos; fees) relating to or arising out of any
+            and all of the following: (a) Your Content; (b) your use of, or inability to use, any
+            Axiom Property; (c) your violation of the Agreement; (d) your violation of any rights of
             another party, including any Users; or (e) your violation of any applicable laws, rules
             or regulations. Axiom reserves the right, at its own cost, to assume the exclusive
             defense and control of any matter otherwise subject to indemnification by you, in which
             event you will fully cooperate with Axiom in asserting any available defenses. This
             provision does not require you to indemnify any of the Axiom Parties for any
-            unconscionable commercial practice by such party or for such party’s fraud, deception,
-            false promise, misrepresentation or concealment, suppression or omission of any material
-            fact in connection with the Website or any Services provided hereunder. You agree that
-            the provisions in this section will survive any termination of your Account, the
-            Agreement and/or your access to Axiom Properties.
+            unconscionable commercial practice by such party or for such party&apos;s fraud,
+            deception, false promise, misrepresentation or concealment, suppression or omission of
+            any material fact in connection with the Website or any Services provided hereunder. You
+            agree that the provisions in this section will survive any termination of your Account,
+            the Agreement and/or your access to Axiom Properties.
           </p>
           <h2>7. Disclaimer of Warranties and Conditions</h2>
           <ul>
@@ -477,9 +477,9 @@ export default function Index() {
               <p>
                 From time to time, Axiom may offer new “beta” features or tools with which its users
                 may experiment. Such features or tools are offered solely for experimental purposes
-                and without any warranty of any kind, and may be modified or discontinued at Axiom’s
-                sole discretion. The provisions of this section apply with full force to such
-                features or tools.
+                and without any warranty of any kind, and may be modified or discontinued at
+                Axiom&apos;s sole discretion. The provisions of this section apply with full force
+                to such features or tools.
               </p>
             </li>
             <li>
@@ -506,8 +506,8 @@ export default function Index() {
               PROPERTIES; OR (5) ANY OTHER MATTER RELATED TO AXIOM PROPERTIES, WHETHER BASED ON
               WARRANTY, COPYRIGHT, CONTRACT, TORT (INCLUDING NEGLIGENCE), OR ANY OTHER LEGAL THEORY.
               THE FOREGOING CAP ON LIABILITY SHALL NOT APPLY TO LIABILITY OF AN AXIOM PARTY FOR (A)
-              DEATH OR PERSONAL INJURY CAUSED BY AN AXIOM PARTY’S NEGLIGENCE; OR FOR (B) ANY INJURY
-              CAUSED BY AN AXIOM PARTY’S FRAUD OR FRAUDULENT MISREPRESENTATION.
+              DEATH OR PERSONAL INJURY CAUSED BY AN AXIOM PARTY&apos;S NEGLIGENCE; OR FOR (B) ANY
+              INJURY CAUSED BY AN AXIOM PARTY&apos;S FRAUD OR FRAUDULENT MISREPRESENTATION.
             </p>
             <p>
               <b>8.2 Cap on Liability.</b> UNDER NO CIRCUMSTANCES WILL AXIOM PARTIES BE LIABLE TO
@@ -515,8 +515,8 @@ export default function Index() {
               one-month period prior to the act, omission or occurrence giving rise to such
               liability and (B) THE REMEDY OR PENALTY IMPOSED BY THE STATUTE UNDER WHICH SUCH CLAIM
               ARISES. THE FOREGOING CAP ON LIABILITY SHALL NOT APPLY TO LIABILITY OF AN AXIOM PARTY
-              FOR (A) DEATH OR PERSONAL INJURY CAUSED BY AN AXIOM PARTY’S NEGLIGENCE; OR FOR (B) ANY
-              INJURY CAUSED BY AN AXIOM PARTY’S FRAUD OR FRAUDULENT MISREPRESENTATION.
+              FOR (A) DEATH OR PERSONAL INJURY CAUSED BY AN AXIOM PARTY&apos;S NEGLIGENCE; OR FOR
+              (B) ANY INJURY CAUSED BY AN AXIOM PARTY&apos;S FRAUD OR FRAUDULENT MISREPRESENTATION.
             </p>
             <p>
               <b>8.3 Basis of the Bargain.</b> THE LIMITATIONS OF DAMAGES SET FORTH ABOVE ARE
@@ -525,22 +525,23 @@ export default function Index() {
           </ul>
           <h2>9. Procedure for Making Claims of Copyright Infringement</h2>
           <p>
-            Procedure for Making Claims of Copyright Infringement. It is Axiom’s policy to terminate
-            membership privileges of any User who repeatedly infringes copyright upon prompt
-            notification to Axiom by the copyright owner or the copyright owner’s legal agent.
-            Without limiting the foregoing, if you believe that your work has been copied and posted
-            on Axiom Properties in a way that constitutes copyright infringement, please provide our
-            Copyright Agent with the following information: (a) an electronic or physical signature
-            of the person authorized to act on behalf of the owner of the copyright interest; (b) a
-            description of the copyrighted work that you claim has been infringed; (c) a description
-            of the location on Axiom Properties of the material that you claim is infringing; (d)
-            your address, telephone number and e-mail address; (e) a written statement by you that
-            you have a good faith belief that the disputed use is not authorized by the copyright
-            owner, its agent or the law; and (f) a statement by you, made under penalty of perjury,
-            that the above information in your notice is accurate and that you are the copyright
-            owner or authorized to act on the copyright owner’s behalf. Contact information for
-            Axiom’s Copyright Agent for notice of claims of copyright infringement is as follows:
-            Gordon Allott, 548 Market St, San Francisco, CA, 94104, USA.
+            Procedure for Making Claims of Copyright Infringement. It is Axiom&apos;s policy to
+            terminate membership privileges of any User who repeatedly infringes copyright upon
+            prompt notification to Axiom by the copyright owner or the copyright owner&apos;s legal
+            agent. Without limiting the foregoing, if you believe that your work has been copied and
+            posted on Axiom Properties in a way that constitutes copyright infringement, please
+            provide our Copyright Agent with the following information: (a) an electronic or
+            physical signature of the person authorized to act on behalf of the owner of the
+            copyright interest; (b) a description of the copyrighted work that you claim has been
+            infringed; (c) a description of the location on Axiom Properties of the material that
+            you claim is infringing; (d) your address, telephone number and e-mail address; (e) a
+            written statement by you that you have a good faith belief that the disputed use is not
+            authorized by the copyright owner, its agent or the law; and (f) a statement by you,
+            made under penalty of perjury, that the above information in your notice is accurate and
+            that you are the copyright owner or authorized to act on the copyright owner&apos;s
+            behalf. Contact information for Axiom&apos;s Copyright Agent for notice of claims of
+            copyright infringement is as follows: Gordon Allott, 548 Market St, San Francisco, CA,
+            94104, USA.
           </p>
           <h2>10. Remedies</h2>
           <ul>
@@ -551,9 +552,9 @@ export default function Index() {
               reserves the right to refer the matter to, and to cooperate with, any and all
               applicable legal authorities. Axiom is entitled, except to the extent prohibited by
               applicable law, to disclose any information or materials on or in Axiom Properties, in
-              Axiom’s possession in connection with your use of Axiom Properties, to (a) comply with
-              applicable laws, legal process or governmental request; (b) enforce the Terms, (c)
-              respond to any claims that any Content that you or your agent(s) provide to Axiom
+              Axiom&apos;s possession in connection with your use of Axiom Properties, to (a) comply
+              with applicable laws, legal process or governmental request; (b) enforce the Terms,
+              (c) respond to any claims that any Content that you or your agent(s) provide to Axiom
               Properties violates the rights of third parties, (d) respond to your requests for
               customer service, or (e) protect the rights, property or personal safety of Axiom, its
               Users or the public, and all enforcement or other government officials, as Axiom in
@@ -593,14 +594,14 @@ export default function Index() {
               provision of the Website, the Software or the Services is, or becomes, unlawful),
               Axiom has the right to, immediately and without notice, suspend or terminate any
               Services provided to you. You agree that all terminations for cause shall be made in
-              Axiom’s sole discretion and that Axiom shall not be liable to you or any third party
-              for any termination of your Account.
+              Axiom&apos;s sole discretion and that Axiom shall not be liable to you or any third
+              party for any termination of your Account.
             </li>
             <li>
               <b>11.4 Termination of Services by You.</b> If you want to terminate the Services
               provided by Axiom, you may do so by (a) notifying Axiom at any time and (b) closing
               your Account for all of the Services that you use. Your notice should be sent, in
-              writing, to Axiom’s address set forth below.
+              writing, to Axiom&apos;s address set forth below.
             </li>
             <li>
               <b>11.5 Effect of Termination.</b> Termination of any Service includes removal of
@@ -667,18 +668,19 @@ export default function Index() {
               <p>
                 The arbitration will be conducted by JAMS, an established alternative dispute
                 resolution provider. Disputes involving claims and counterclaims under $250,000, not
-                inclusive of attorneys’ fees and interest, shall be subject to JAMS’s most current
-                version of the Streamlined Arbitration Rules and procedures available at
+                inclusive of attorneys&apos; fees and interest, shall be subject to JAMS&apos;s most
+                current version of the Streamlined Arbitration Rules and procedures available at
                 http://www.jamsadr.com/rules-streamlined-arbitration/; all other claims shall be
-                subject to JAMS’s most current version of the Comprehensive Arbitration Rules and
-                Procedures, available at http://www.jamsadr.com/rules-comprehensive-arbitration/.
-                JAMS’s rules are also available at www.jamsadr.com or by calling JAMS at
-                800-352-5267. If JAMS is not available to arbitrate, the parties will select an
-                alternative arbitral forum. If the arbitrator finds that you cannot afford to pay
-                JAMS’s filing, administrative, hearing and/or other fees and cannot obtain a waiver
-                from JAMS, Axiom will pay them for you. In addition, Axiom will reimburse all such
-                JAMS’s filing, administrative, hearing and/or other fees for claims totaling less
-                than $10,000 unless the arbitrator determines the claims are frivolous.
+                subject to JAMS&apos;s most current version of the Comprehensive Arbitration Rules
+                and Procedures, available at
+                http://www.jamsadr.com/rules-comprehensive-arbitration/. JAMS&apos;s rules are also
+                available at www.jamsadr.com or by calling JAMS at 800-352-5267. If JAMS is not
+                available to arbitrate, the parties will select an alternative arbitral forum. If
+                the arbitrator finds that you cannot afford to pay JAMS&apos;s filing,
+                administrative, hearing and/or other fees and cannot obtain a waiver from JAMS,
+                Axiom will pay them for you. In addition, Axiom will reimburse all such JAMS&apos;s
+                filing, administrative, hearing and/or other fees for claims totaling less than
+                $10,000 unless the arbitrator determines the claims are frivolous.
               </p>
             </li>
             <li>
@@ -692,9 +694,9 @@ export default function Index() {
               cases or parties. The arbitrator shall have the authority to grant motions dispositive
               of all or part of any claim. The arbitrator shall have the authority to award monetary
               damages and to grant any non-monetary remedy or relief available to an individual
-              under applicable law, the arbitral forum’s rules, and the Agreement (including the
-              Arbitration Agreement). The arbitrator shall issue a written award and statement of
-              decision describing the essential findings and conclusions on which the award is
+              under applicable law, the arbitral forum&apos;s rules, and the Agreement (including
+              the Arbitration Agreement). The arbitrator shall issue a written award and statement
+              of decision describing the essential findings and conclusions on which the award is
               based, including the calculation of any damages awarded. The arbitrator has the same
               authority to award relief on an individual basis that a judge in a court of law would
               have. The award of the arbitrator is final and binding upon you and us.
@@ -715,10 +717,10 @@ export default function Index() {
               INDIVIDUAL BASIS AND NOT ON A CLASS OR COLLECTIVE BASIS, ONLY INDIVIDUAL RELIEF IS
               AVAILABLE, AND CLAIMS OF MORE THAN ONE CUSTOMER OR USER CANNOT BE ARBITRATED OR
               CONSOLIDATED WITH THOSE OF ANY OTHER CUSTOMER OR USER. If a decision is issued stating
-              that applicable law precludes enforcement of any of this subsection’s limitations as
-              to a given claim for relief, then the claim must be severed from the arbitration and
-              brought into the State or Federal Courts located in the State of Delaware. All other
-              claims shall be arbitrated.
+              that applicable law precludes enforcement of any of this subsection&apos;s limitations
+              as to a given claim for relief, then the claim must be severed from the arbitration
+              and brought into the State or Federal Courts located in the State of Delaware. All
+              other claims shall be arbitrated.
             </li>
             <li>
               <b>13.6 30-Day Right to Opt Out.</b> You have the right to opt out of the provisions
@@ -776,15 +778,15 @@ export default function Index() {
               the debtor.” The foregoing release does not apply to any claims, demands, or any
               losses, damages, rights and actions of any kind, including personal injuries, death or
               property damage for any unconscionable commercial practice by an Axiom Party or for
-              such party’s fraud, deception, false, promise, misrepresentation or concealment,
+              such party&apos;s fraud, deception, false, promise, misrepresentation or concealment,
               suppression or omission of any material fact in connection with the Website or any
               Services provided hereunder.
             </li>
             <li>
               <b>14.3 Assignment.</b> The Agreement, and your rights and obligations hereunder, may
               not be assigned, subcontracted, delegated or otherwise transferred by you without
-              Axiom’s prior written consent, and any attempted assignment, subcontract, delegation,
-              or transfer in violation of the foregoing will be null and void.
+              Axiom&apos;s prior written consent, and any attempted assignment, subcontract,
+              delegation, or transfer in violation of the foregoing will be null and void.
             </li>
             <li>
               <b>14.4 Force Majeure.</b> Axiom shall not be liable for any delay or failure to
@@ -828,7 +830,7 @@ export default function Index() {
               responsible for providing Axiom with your most current e-mail address. In the event
               that the last e-mail address you provided to Axiom is not valid, or for any reason is
               not capable of delivering to you any notices required/ permitted by the Agreement,
-              Axiom’s dispatch of the e-mail containing such notice will nonetheless constitute
+              Axiom&apos;s dispatch of the e-mail containing such notice will nonetheless constitute
               effective notice. You may give notice to Axiom at the following address: Axiom, Inc.
               1390 Market Street, Suite 200, San Francisco, CA 94102. Such notice shall be deemed
               given when received by Axiom by letter delivered by nationally recognized overnight
@@ -850,20 +852,20 @@ export default function Index() {
               Properties except as authorized by U.S. law, the laws of the jurisdiction in which you
               obtained Axiom Properties, and any other applicable laws. In particular, but without
               limitation, Axiom Properties may not be exported or re-exported (a) into any United
-              States embargoed countries, or (b) to anyone on the U.S. Treasury Department’s list of
-              Specially Designated Nationals or the U.S. Department of Commerce’s Denied Person’s
-              List or Entity List. By using Axiom Properties, you represent and warrant that (y) you
-              are not located in a country that is subject to a U.S. Government embargo, or that has
-              been designated by the U.S. Government as a “terrorist supporting” country and (z) you
-              are not listed on any U.S. Government list of prohibited or restricted parties. You
-              also will not use Axiom Properties for any purpose prohibited by U.S. law, including
-              the development, design, manufacture or production of missiles, nuclear, chemical or
-              biological weapons. You acknowledge and agree that products, services or technology
-              provided by Axiom are subject to the export control laws and regulations of the United
-              States. You shall comply with these laws and regulations and shall not, without prior
-              U.S. government authorization, export, re-export, or transfer Axiom products, services
-              or technology, either directly or indirectly, to any country in violation of such laws
-              and regulations.
+              States embargoed countries, or (b) to anyone on the U.S. Treasury Department&apos;s
+              list of Specially Designated Nationals or the U.S. Department of Commerce&apos;s
+              Denied Person&apos;s List or Entity List. By using Axiom Properties, you represent and
+              warrant that (y) you are not located in a country that is subject to a U.S. Government
+              embargo, or that has been designated by the U.S. Government as a “terrorist
+              supporting” country and (z) you are not listed on any U.S. Government list of
+              prohibited or restricted parties. You also will not use Axiom Properties for any
+              purpose prohibited by U.S. law, including the development, design, manufacture or
+              production of missiles, nuclear, chemical or biological weapons. You acknowledge and
+              agree that products, services or technology provided by Axiom are subject to the
+              export control laws and regulations of the United States. You shall comply with these
+              laws and regulations and shall not, without prior U.S. government authorization,
+              export, re-export, or transfer Axiom products, services or technology, either directly
+              or indirectly, to any country in violation of such laws and regulations.
             </li>
             <li>
               <b>14.14 Consumer Complaints.</b> In accordance with California Civil Code §1789.3,

@@ -92,7 +92,7 @@ export default function Index() {
           </ul>
           <p>
             <b>For research and development.</b> We use information automatically collected and
-            other information to analyze trends, administer the Sites, analyze users’ movements
+            other information to analyze trends, administer the Sites, analyze users&apos; movements
             around the Sites, gather demographic information about our user base as a whole and
             improve the Sites.
           </p>
@@ -103,14 +103,14 @@ export default function Index() {
           </p>
           <p>
             <b>To create anonymous data.</b> We may create aggregated and other anonymous data from
-            our users’ information. We make personal information into anonymous data by removing
+            our users&apos; information. We make personal information into anonymous data by removing
             information that makes the data personally identifiable. We may use this anonymous data
             and share it with third parties for our lawful business purposes.
           </p>
           <p>
             <b>For compliance, fraud prevention and safety.</b> We may use your personal information
             as we believe appropriate to (a) investigate violations of and enforce our Terms of Use;
-            (b) protect our, your or others’ rights, privacy, safety or property (including by
+            (b) protect our, your or others&apos; rights, privacy, safety or property (including by
             making and defending legal claims); and (c) protect, investigate and deter against
             fraudulent, harmful, unauthorized, unethical or illegal activity.
           </p>

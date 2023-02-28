@@ -28,9 +28,9 @@ export default function Index() {
             party features or functionality within the site, such as site analytics, advertising and
             social media features. The parties that set these third party cookies can recognize your
             computer or device both when it visits the site in question and also when it visits
-            certain other sites and/or mobile apps. We do not control how these third parties’ use
-            your information, which is subject to their own privacy policies. See below for details
-            on use of third party cookies and similar technologies with our sites and app.
+            certain other sites and/or mobile apps. We do not control how these third parties&apos;
+            use your information, which is subject to their own privacy policies. See below for
+            details on use of third party cookies and similar technologies with our sites and app.
           </p>
           <h2>How long will cookies stay on my device?</h2>
           <p>
@@ -141,7 +141,7 @@ export default function Index() {
                   website activity to help us build a better product.
                   <br />
                   <br />
-                  You can find more information about Mixpanel’s privacy policy here:
+                  You can find more information about Mixpanel&apos;s privacy policy here:
                   https://mixpanel.com/privacy. If you wish to not share usage information with
                   Mixpanel, please let us know at privacy@axiom.co
                   <br />
@@ -164,7 +164,7 @@ export default function Index() {
                   <br />
                   Pixels are small amounts of code placed on a web page, in a web-enabled app, or an
                   email. We use pixels, some of which we provide to advertisers to place on their
-                  web properties, to learn whether you've interacted with specific web or email
+                  web properties, to learn whether you&apos;ve interacted with specific web or email
                   content — as many services do. This helps us measure and improve our services and
                   personalize your experience, including the ads you see.
                 </td>
