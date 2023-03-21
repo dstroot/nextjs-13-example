@@ -5,7 +5,7 @@ specifiers:
   '@headlessui/tailwindcss': ^0.1.2
   '@observablehq/runtime': ^5.5.1
   '@tailwindcss/typography': ^0.5.9
-  '@types/node': 18.15.3
+  '@types/node': 18.15.5
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   a99b331307f7eae7: https://api.observablehq.com/d/a99b331307f7eae7.tgz?v=3
@@ -13,7 +13,7 @@ specifiers:
   class-variance-authority: ^0.4.0
   eslint: 8.36.0
   eslint-config-next: 13.2.4
-  framer-motion: ^10.5.0
+  framer-motion: ^10.8.3
   next: 13.2.4
   next-themes: ^0.2.1
   openai: ^3.2.1
@@ -30,7 +30,7 @@ dependencies:
   '@headlessui/tailwindcss': 0.1.2_tailwindcss@3.2.7
   '@observablehq/runtime': 5.5.1
   '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.7
-  '@types/node': 18.15.3
+  '@types/node': 18.15.5
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   a99b331307f7eae7: '@api.observablehq.com/d/a99b331307f7eae7.tgz?v=3_zso5yecxz56b57c3srnrca3bbu'
@@ -38,7 +38,7 @@ dependencies:
   class-variance-authority: 0.4.0_typescript@5.0.2
   eslint: 8.36.0
   eslint-config-next: 13.2.4_j4766f7ecgqbon3u7zlxn5zszu
-  framer-motion: 10.5.0_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 10.8.3_biqbaboplfbrettd7655fr4n2y
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
   next-themes: 0.2.1_ld2jel3hspngo3u5lti2kgl2sq
   openai: 3.2.1
@@ -358,8 +358,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: false
 
-  /@types/node/18.15.3:
-    resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
+  /@types/node/18.15.5:
+    resolution: {integrity: sha512-Ark2WDjjZO7GmvsyFFf81MXuGTA/d6oP38anyxWOL6EREyBKAxKoFHwBhaZxCfLRLpO8JgVXwqOwSwa7jRcjew==}
     dev: false
 
   /@types/prop-types/15.7.5:
@@ -1430,8 +1430,8 @@ packages:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: false
 
-  /framer-motion/10.5.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-84Gh6Ct+KCk82YOnS7oq68IMlqcyaejrj2Xtxmh+CPOi7gqa1SZORZYWMJujQ2Qw0YRM2j1xQQdQo/+BtoQicQ==}
+  /framer-motion/10.8.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Nd6Fgi7KEArJUsWhS/95dKbAyC1S03mrWKG1rO4pNyDgg0k5+Y9UjJ18z5z6kouic2UxzE6u6mU0tNQ7mJCrdg==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
