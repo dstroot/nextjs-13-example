@@ -48,9 +48,9 @@ export default async function Index() {
                   </linearGradient>
                 </defs>
               </svg>
-              <h4 className='text-base pt-[2px] font-semibold text-gray-900 dark:text-gray-100'>
+              <h2 className='text-base pt-[2px] font-semibold text-gray-900 dark:text-gray-100'>
                 Coordination free ingest
-              </h4>
+              </h2>
             </div>
             <p>
               Axiom does not need to run huge VMs to handle petabytes of ingest volume. Instead it
@@ -91,9 +91,9 @@ export default async function Index() {
                   </linearGradient>
                 </defs>
               </svg>
-              <h4 className='text-base pt-[2px] font-semibold text-gray-900 dark:text-gray-100'>
+              <h2 className='text-base pt-[2px] font-semibold text-gray-900 dark:text-gray-100'>
                 Object storage by default
-              </h4>
+              </h2>
             </div>
             <p>
               Axiom uses object storage by default for all data. This means your data is already on
@@ -134,9 +134,9 @@ export default async function Index() {
                   </linearGradient>
                 </defs>
               </svg>
-              <h4 className='text-base pt-[2px] font-semibold text-gray-900 dark:text-gray-100'>
+              <h2 className='text-base pt-[2px] font-semibold text-gray-900 dark:text-gray-100'>
                 Serverless querying
-              </h4>
+              </h2>
             </div>
             <p>
               Serverless functions run queries, no matter how large or small they are. This means
@@ -211,9 +211,9 @@ export default async function Index() {
                 </linearGradient>
               </defs>
             </svg>
-            <h4 className='text-sm font-medium text-gray-900 dark:text-white md:text-base'>
+            <h2 className='text-sm font-medium text-gray-900 dark:text-white md:text-base'>
               Unlimited Users
-            </h4>
+            </h2>
           </div>
           <div className='w-[240px] lg:w-auto flex space-x-2 items-center justify-start px-4 py-2 rounded-[8px]  undefined'>
             <svg
@@ -245,9 +245,9 @@ export default async function Index() {
                 </linearGradient>
               </defs>
             </svg>
-            <h4 className='text-sm font-medium text-gray-900 dark:text-white md:text-base'>
+            <h2 className='text-sm font-medium text-gray-900 dark:text-white md:text-base'>
               Unlimited Sources
-            </h4>
+            </h2>
           </div>
           <div className='w-[240px] lg:w-auto flex space-x-2 items-center justify-start px-4 py-2 rounded-[8px]  undefined'>
             <svg
@@ -279,9 +279,9 @@ export default async function Index() {
                 </linearGradient>
               </defs>
             </svg>
-            <h4 className='text-sm font-medium text-gray-900 dark:text-white md:text-base'>
+            <h2 className='text-sm font-medium text-gray-900 dark:text-white md:text-base'>
               Unlimited Hosts
-            </h4>
+            </h2>
           </div>
           <div className='w-[240px] lg:w-auto flex space-x-2 items-center justify-start px-4 py-2 rounded-[8px]  undefined'>
             <svg
@@ -313,9 +313,9 @@ export default async function Index() {
                 </linearGradient>
               </defs>
             </svg>
-            <h4 className='text-sm font-medium text-gray-900 dark:text-white md:text-base'>
+            <h2 className='text-sm font-medium text-gray-900 dark:text-white md:text-base'>
               Unlimited Agents
-            </h4>
+            </h2>
           </div>
           <div className='w-[240px] lg:w-auto flex space-x-2 items-center justify-start px-4 py-2 rounded-[8px]  undefined'>
             <svg
@@ -347,9 +347,9 @@ export default async function Index() {
                 </linearGradient>
               </defs>
             </svg>
-            <h4 className='text-sm font-medium text-gray-900 dark:text-white md:text-base'>
+            <h2 className='text-sm font-medium text-gray-900 dark:text-white md:text-base'>
               Unlimited Dashboards
-            </h4>
+            </h2>
           </div>
         </div>
       </div>
@@ -372,9 +372,9 @@ export default async function Index() {
               <div className='grid lg:grid-cols-[1.4fr_1fr] pb-8 lg:pb-16 items-center'>
                 <div className='flex flex-col space-y-4 text-sm text-center text-gray-700 dark:text-white lg:text-left lg:space-y-8'>
                   <div className='flex flex-col space-y-4'>
-                    <h4 className='text-2xl font-semibold leading-normal text-transparent uppercase bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text'>
+                    <h2 className='text-2xl font-semibold leading-normal text-transparent uppercase bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text'>
                       Datastore
-                    </h4>
+                    </h2>
                     <h1 className='text-2xl font-bold text-gray-700 dark:text-white lg:text-4xl lg:whitespace-nowrap'>
                       Built from the ground-up for logging
                     </h1>
@@ -426,9 +426,9 @@ export default async function Index() {
                           </linearGradient>
                         </defs>
                       </svg>
-                      <h4 className='text-base pt-[2px] font-semibold text-gray-800 dark:text-white'>
+                      <h2 className='text-base pt-[2px] font-semibold text-gray-800 dark:text-white'>
                         Coordination free ingest
-                      </h4>
+                      </h2>
                     </div>
                     <p>
                       Axiom does not need to run huge VMs to handle petabytes of ingest volume.
@@ -469,9 +469,9 @@ export default async function Index() {
                           </linearGradient>
                         </defs>
                       </svg>
-                      <h4 className='text-base pt-[2px] font-semibold text-gray-800 dark:text-white'>
+                      <h2 className='text-base pt-[2px] font-semibold text-gray-800 dark:text-white'>
                         Object storage by default
-                      </h4>
+                      </h2>
                     </div>
                     <p>
                       Axiom uses object storage by default for all data. This means your data is
@@ -512,9 +512,9 @@ export default async function Index() {
                           </linearGradient>
                         </defs>
                       </svg>
-                      <h4 className='text-base pt-[2px] font-semibold text-gray-800 dark:text-white'>
+                      <h2 className='text-base pt-[2px] font-semibold text-gray-800 dark:text-white'>
                         Serverless querying
-                      </h4>
+                      </h2>
                     </div>
                     <p>
                       Serverless functions run queries, no matter how large or small they are. This

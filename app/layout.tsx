@@ -16,6 +16,19 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 // link tags inside your HTML head element) with an explicit metadata
 // configuration in any layout or page that is a Server Component.
 // https://beta.nextjs.org/docs/api-reference/metadata
+//
+// In addition to config-based metadata, the Metadata API now supports
+// new file conventions, allowing you to conveniently customize your
+// pages for improved SEO and sharing on the web:
+//
+// opengraph-image.(jpg|png|svg)
+// twitter-image.(jpg|png|svg)
+// favicon.ico
+// icon.(ico|jpg|png|svg)
+// sitemap.(xml|js|jsx|ts|tsx)
+// robots.(txt|js|jsx|ts|tsx)
+// manifest.(json|js|jsx|ts|tsx)
+
 export const metadata = {
   title: 'NextJS + TailwindCSS minimalist starter kit',
   description: 'NextJS + TailwindCSS minimalist starter kit',

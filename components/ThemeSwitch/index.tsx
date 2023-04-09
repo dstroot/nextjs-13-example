@@ -29,6 +29,7 @@ export const ThemeSwitch = () => {
       <div className='flex justify-between w-20 mx-auto bg-white border-2 border-gray-500 rounded-full dark:bg-gray-300 dark:border-gray-300'>
         <button
           id='light'
+          aria-label='Light Theme'
           className={cn(
             'hover:transition-all w-6 h-6 p-1 rounded-full hover:bg-gray-500 hover:text-white',
             theme === 'light' ? 'bg-gray-500 text-white' : 'text-black'
@@ -39,17 +40,18 @@ export const ThemeSwitch = () => {
         </button>
         <button
           id='system'
+          aria-label='System Theme'
           className={cn(
             'hover:transition-all w-6 h-6 p-1 rounded-full hover:bg-gray-500 hover:text-white',
             theme === 'system' ? 'text-white bg-gray-500 dark:text-white' : 'text-black'
           )}
-          aria-label='Toggle Light/Dark Mode - System Setting'
           onClick={(e) => setTheme('system')}
         >
           <BsGear />
         </button>
         <button
           id='dark'
+          aria-label='Dark Theme'
           className={cn(
             'hover:transition-all w-6 h-6 p-1 rounded-full hover:bg-gray-500 dark:hover:text-white hover:text-white',
             theme === 'dark' ? 'bg-gray-500 text-white' : 'dark:text-black'

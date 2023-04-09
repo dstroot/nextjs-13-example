@@ -60,7 +60,11 @@ export const Footer = ({ statusData }: { statusData: Data }) => {
             First Column - Logo, Twitter, etc. 
           */}
           <div className='flex flex-col items-start ml-8'>
-            <Link className='flex text-[#656A8C] hover:text-berry-900 dark:text-gray-300' href='/'>
+            <Link
+              aria-label='Home Page'
+              className='flex text-[#656A8C] hover:text-berry-900 dark:text-gray-300'
+              href='/'
+            >
               <svg
                 width='25'
                 height='24'
@@ -414,6 +418,7 @@ export const Footer = ({ statusData }: { statusData: Data }) => {
                 <li>
                   <a
                     href='https://github.com/axiomhq'
+                    aria-label='Read more about Seminole tax hike'
                     className={logoLinks}
                     target='_blank'
                     rel='noreferrer'
