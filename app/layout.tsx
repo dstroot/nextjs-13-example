@@ -32,6 +32,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 export const metadata = {
   title: 'NextJS + TailwindCSS minimalist starter kit',
   description: 'NextJS + TailwindCSS minimalist starter kit',
+  themeColor: '#fff',
   openGraph: {
     title: 'NextJS + TailwindCSS minimalist starter kit',
     description: 'The React Framework for the Web',
