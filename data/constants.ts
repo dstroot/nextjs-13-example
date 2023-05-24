@@ -23,13 +23,13 @@ export const menuItems = [
 export const footerItems = {
   resources: [
     { path: '/', name: 'Documentation', internal: true },
-    { path: '/support', name: 'Support', internal: true },
-    { path: '/contact', name: 'Contact Us', internal: true },
+    { path: '/', name: 'Support', internal: true },
+    { path: '/', name: 'Contact Us', internal: true },
   ],
   company: [
     { path: '/', name: 'Home', internal: true },
     { path: '/blog', name: 'Blog', internal: true },
-    { path: '/company#careers', name: 'Careers', internal: true },
+    { path: '/', name: 'Careers', internal: true },
   ],
   legal: [
     { path: '/privacy', name: 'Privacy Policy', internal: true },
