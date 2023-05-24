@@ -1,5 +1,8 @@
 import '@/styles/globals.css';
 
+// types
+import type { Metadata } from 'next';
+
 // components
 import { NavBar } from '@/components/NavBar';
 import { Footer } from '@/components/Footer';
@@ -29,10 +32,19 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 // robots.(txt|js|jsx|ts|tsx)
 // manifest.(json|js|jsx|ts|tsx)
 
-export const metadata = {
-  title: 'NextJS + TailwindCSS minimalist starter kit',
+export const metadata: Metadata = {
+  // metadataBase is a convenience option to set a base URL prefix for metadata fields
+  // that require a fully qualified URL. https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+  metadataBase: new URL('https://example.com'),
+  // https://nextjs.org/docs/app/api-reference/functions/generate-metadata#title
+  title: {
+    default: 'Acme',
+    template: '%s | Acme',
+  },
   description: 'NextJS + TailwindCSS minimalist starter kit',
+  // https://nextjs.org/docs/app/api-reference/functions/generate-metadata#basic-fields
   themeColor: '#fff',
+  // https://nextjs.org/docs/app/api-reference/functions/generate-metadata#opengraph
   openGraph: {
     title: 'NextJS + TailwindCSS minimalist starter kit',
     description: 'The React Framework for the Web',
@@ -47,6 +59,14 @@ export const metadata = {
     ],
     locale: 'en-US',
     type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    noarchive: true,
+    nosnippet: true, // Prevents search engines from showing snippets of the page in search results.
+    noimageindex: true,
+    nocache: true, //Prevents search engines from caching the page.
   },
 };
 
@@ -64,7 +84,6 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
   return (
     <html lang='en'>
-      {/* <head /> */}
       <body
         className={`${inter.variable} font-sans antialiased transition-colors bg-white dark:bg-gray-900 min-h-screen grid grid-rows-[auto_1fr_auto]`}
       >

@@ -1,4 +1,7 @@
-export default async function sitemap() {
+import { MetadataRoute } from 'next';
+import { URL, menuItems, footerItems } from '@/data/constants';
+
+export default function sitemap(): MetadataRoute.Sitemap {
   //   const res = await fetch('https://.../posts');
   //   const allPosts = await res.json();
 
@@ -7,11 +10,18 @@ export default async function sitemap() {
   //     lastModified: post.publishedAt,
   //   }));
 
-  const routes = ['', '/about', '/blog'].map((route) => ({
-    url: `https://acme.com${route}`,
-    lastModified: new Date().toISOString(),
+  // menu routes
+  const routes = menuItems.map((route) => ({
+    url: `${URL}${route.path}`,
+    lastModified: new Date(),
+  }));
+
+  // routes in footer
+  const footerRoutes = footerItems.legal.map((route) => ({
+    url: `${URL}${route.path}`,
+    lastModified: new Date(),
   }));
 
   //   return [...routes, ...posts];
-  return [...routes];
+  return [...routes, ...footerRoutes];
 }

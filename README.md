@@ -93,3 +93,5 @@ export const Providers = ({ children }: { children: React.ReactNode }) => {
   "singleQuote": true
 }
 ```
+
+5. Metadata for SEO: https://nikolasbarwicki.com/articles/seo-in-next-js-13-with-metadata-api

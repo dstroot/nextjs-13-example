@@ -12,6 +12,8 @@ export const config = {
   statusPage: process.env.STATUS_PAGE_ID ?? '',
 };
 
+export const URL = 'https://example.com';
+
 export const menuItems = [
   { path: '/', name: 'Home', new: false },
   { path: '/about', name: 'About', new: false },
