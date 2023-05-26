@@ -1,3 +1,26 @@
+// types
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Privacy',
+  // description: 'NextJS + TailwindCSS minimalist starter kit',
+  // openGraph: {
+  //   title: 'NextJS + TailwindCSS minimalist starter kit',
+  //   description: 'The React Framework for the Web',
+  //   url: 'https://nextjs.org',
+  //   siteName: 'Next.js',
+  //   images: [
+  //     {
+  //       url: 'https://nextjs.org/og.png',
+  //       width: 800,
+  //       height: 600,
+  //     },
+  //   ],
+  //   locale: 'en-US',
+  //   type: 'website',
+  // },
+};
+
 export default function Index() {
   return (
     <div className='max-w-4xl mx-auto'>
@@ -103,9 +126,9 @@ export default function Index() {
           </p>
           <p>
             <b>To create anonymous data.</b> We may create aggregated and other anonymous data from
-            our users&apos; information. We make personal information into anonymous data by removing
-            information that makes the data personally identifiable. We may use this anonymous data
-            and share it with third parties for our lawful business purposes.
+            our users&apos; information. We make personal information into anonymous data by
+            removing information that makes the data personally identifiable. We may use this
+            anonymous data and share it with third parties for our lawful business purposes.
           </p>
           <p>
             <b>For compliance, fraud prevention and safety.</b> We may use your personal information
