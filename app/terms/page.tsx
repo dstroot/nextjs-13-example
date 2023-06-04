@@ -23,20 +23,20 @@ export const metadata: Metadata = {
 
 export default function Index() {
   return (
-    <div className='max-w-4xl mx-auto'>
-      <div className='mb-8 prose prose-lg break-words dark:prose-invert prose-a:no-underline max-w-none prose-a:text-blue-700 hover:prose-a:text-blue-500 dark:prose-a:text-blue-300 dark:hover:prose-a:text-blue-500'>
+    <div className='mx-auto max-w-4xl'>
+      <div className='prose prose-lg mb-8 max-w-none break-words dark:prose-invert prose-a:text-blue-700 prose-a:no-underline hover:prose-a:text-blue-500 dark:prose-a:text-blue-300 dark:hover:prose-a:text-blue-500'>
         <div className='flex w-full px-4 pt-12 text-center'>
           <div className='w-full'>
-            <h1 className='text-5xl font-bold text-berry-900 dark:text-gray-200'>
+            <h1 className='text-berry-900 text-5xl font-bold dark:text-gray-200'>
               Terms of Service
             </h1>
-            <h2 className='px-6 pt-6 pb-12 text-xl leading-relaxed text-berry-700 dark:text-gray-300 sm:px-24'>
+            <h2 className='text-berry-700 px-6 pb-12 pt-6 text-xl leading-relaxed dark:text-gray-300 sm:px-24'>
               If you have any questions, please <a href='mailto:support@axiom.co'>get in touch.</a>
             </h2>
           </div>
         </div>
 
-        <article className='prose dark:prose-invert max-w-none'>
+        <article className='prose max-w-none dark:prose-invert'>
           <p>
             This Terms of Use Agreement (the “Terms of Use“) applies to axiom.co and all other web
             sites, features and online services that are owned or controlled by Axiom, Inc., its
@@ -922,7 +922,7 @@ export default function Index() {
             </li>
           </ul>
         </article>
-        <div className='py-8 text-sm text-center text-slate-500'>[As of August 20th, 2020]</div>
+        <div className='py-8 text-center text-sm text-slate-500'>[As of August 20th, 2020]</div>
       </div>
     </div>
   );

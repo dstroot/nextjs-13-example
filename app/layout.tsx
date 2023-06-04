@@ -85,7 +85,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang='en'>
       <body
-        className={`${inter.variable} font-sans antialiased transition-colors bg-white dark:bg-gray-900 min-h-screen grid grid-rows-[auto_1fr_auto]`}
+        className={`${inter.variable} grid min-h-full grid-rows-[auto_1fr_auto] bg-white font-sans antialiased transition-colors dark:bg-gray-900`}
       >
         <Providers>
           <NavBar />

@@ -2,11 +2,11 @@ export default async function Index() {
   return (
     <>
       <div className='w-full'>
-        <h1 className='mt-8 pb-4 lg:mt-16 sm:text-center text-[28px] leading-[40px] md:leading-[50px] md:pt-2 md:text-5xl lg:text-6xl lg:leading-[70px] banner:text-7xl banner:leading-[84px] tracking-[-0.05em] md:tracking-[-0.07em] font-extrabold bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text'>
+        <h1 className='banner:text-7xl banner:leading-[84px] mt-8 bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text pb-4 text-[28px] font-extrabold leading-[40px] tracking-[-0.05em] text-transparent sm:text-center md:pt-2 md:text-5xl md:leading-[50px] md:tracking-[-0.07em] lg:mt-16 lg:text-6xl lg:leading-[70px]'>
           You&apos;ve got 99 problems,
           <br /> logging shouldn&apos;t be one.
         </h1>
-        <p className='mt-6 md:mt-6 text-lg lg:text-[22px] lg:leading-[33px] text-gray-900 dark:text-[#AAB7D2] sm:text-center'>
+        <p className='mt-6 text-lg text-gray-900 dark:text-[#AAB7D2] sm:text-center md:mt-6 lg:text-[22px] lg:leading-[33px]'>
           From inception to product market fit and beyond, <br className='hidden lg:inline' />{' '}
           logging is now a solved problem for your product.
         </p>
@@ -15,7 +15,7 @@ export default async function Index() {
       {/*
         Big Rounded Section
       */}
-      <div className="sm:mx-8 my-8 text-sm grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-900 dark:text-[#AAB7D2] p-8 lg:p-12 rounded-[25px] bg-gray-100 dark:bg-[#09101F] relative bg-clip-padding border-[2px] border-transparent before:content-[''] before:absolute before:left-0 before:right-0 before:bottom-0 before:top-0 before:-m-[2px] before:z-[-1] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500">
+      <div className="relative my-8 grid grid-cols-1 gap-8 rounded-[25px] border-[2px] border-transparent bg-gray-100 bg-clip-padding p-8 text-sm text-gray-900 before:absolute before:inset-0 before:z-[-1] before:-m-[2px] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500 before:content-[''] dark:bg-[#09101F] dark:text-[#AAB7D2] sm:mx-8 md:grid-cols-3 lg:p-12">
         <div className='flex items-start space-x-2'>
           <div className='flex flex-col space-y-4'>
             <div className='flex items-center space-x-2'>
@@ -48,7 +48,7 @@ export default async function Index() {
                   </linearGradient>
                 </defs>
               </svg>
-              <h2 className='text-base pt-[2px] font-semibold text-gray-900 dark:text-gray-100'>
+              <h2 className='pt-[2px] text-base font-semibold text-gray-900 dark:text-gray-100'>
                 Coordination free ingest
               </h2>
             </div>
@@ -91,7 +91,7 @@ export default async function Index() {
                   </linearGradient>
                 </defs>
               </svg>
-              <h2 className='text-base pt-[2px] font-semibold text-gray-900 dark:text-gray-100'>
+              <h2 className='pt-[2px] text-base font-semibold text-gray-900 dark:text-gray-100'>
                 Object storage by default
               </h2>
             </div>
@@ -134,7 +134,7 @@ export default async function Index() {
                   </linearGradient>
                 </defs>
               </svg>
-              <h2 className='text-base pt-[2px] font-semibold text-gray-900 dark:text-gray-100'>
+              <h2 className='pt-[2px] text-base font-semibold text-gray-900 dark:text-gray-100'>
                 Serverless querying
               </h2>
             </div>
@@ -150,13 +150,13 @@ export default async function Index() {
       {/* 
         Big Button 
       */}
-      <div className='flex justify-center mb-12'>
+      <div className='mb-12 flex justify-center'>
         <a href='https://cloud.axiom.co'>
-          <div className='relative rounded-lg pointer-events-none shadow-lgDark '>
-            <div className='z-10 relative overflow-hidden rounded-[inherit] p-[3px] m-[-2px] isolate'>
-              <div className='will-change-transform animate-buttonStroke blur-[4px] origin-[center_center] absolute top-0 left-0 right-0 bottom-0 bg-buttonConicGradient'></div>
-              <div className='relative z-100'>
-                <div className='flex items-center space-x-3 bg-gray-100 dark:bg-[#0e1422] hover:bg-gray-200 border border-[#ffffff10] text-gray-900 dark:text-white font-bold px-8 py-4 rounded-lg'>
+          <div className='shadow-lgDark pointer-events-none relative rounded-lg '>
+            <div className='relative isolate z-10 m-[-2px] overflow-hidden rounded-[inherit] p-[3px]'>
+              <div className='animate-buttonStroke bg-buttonConicGradient absolute inset-0 origin-[center_center] blur-[4px] will-change-transform'></div>
+              <div className='z-100 relative'>
+                <div className='flex items-center space-x-3 rounded-lg border border-[#ffffff10] bg-gray-100 px-8 py-4 font-bold text-gray-900 hover:bg-gray-200 dark:bg-[#0e1422] dark:text-white'>
                   <span>Try free 14 day trial</span>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
@@ -165,7 +165,7 @@ export default async function Index() {
                     strokeWidth='2.5px'
                     stroke='currentColor'
                     aria-hidden='true'
-                    className='w-4 h-5'
+                    className='h-5 w-4'
                   >
                     <path strokeLinecap='round' strokeLinejoin='round' d='M9 5l7 7-7 7'></path>
                   </svg>
@@ -179,11 +179,11 @@ export default async function Index() {
       {/* 
         Items Section
       */}
-      <div className='flex justify-center w-full mb-12'>
-        <div className='lg:w-full flex flex-col lg:flex-row items-center justify-around lg:space-y-0 dark:bg-[#0D1423] border border-gray-300 dark:border-[#ffffff22] rounded-[25px] space-y-4 p-8 md:p-4'>
-          <div className='w-[240px] lg:w-auto flex space-x-2 items-center justify-start px-4 py-2 rounded-[8px]'>
+      <div className='mb-12 flex w-full justify-center'>
+        <div className='flex flex-col items-center justify-around space-y-4 rounded-[25px] border border-gray-300 p-8 dark:border-[#ffffff22] dark:bg-[#0D1423] md:p-4 lg:w-full lg:flex-row lg:space-y-0'>
+          <div className='flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2 lg:w-auto'>
             <svg
-              className='w-6 h-6 text-[#8CBDFF]'
+              className='h-6 w-6 text-[#8CBDFF]'
               width='28'
               height='28'
               viewBox='0 0 24 24'
@@ -215,9 +215,9 @@ export default async function Index() {
               Unlimited Users
             </h2>
           </div>
-          <div className='w-[240px] lg:w-auto flex space-x-2 items-center justify-start px-4 py-2 rounded-[8px]  undefined'>
+          <div className='undefined flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
             <svg
-              className='w-6 h-6 text-[#8CBDFF]'
+              className='h-6 w-6 text-[#8CBDFF]'
               width='28'
               height='28'
               viewBox='0 0 24 24'
@@ -249,9 +249,9 @@ export default async function Index() {
               Unlimited Sources
             </h2>
           </div>
-          <div className='w-[240px] lg:w-auto flex space-x-2 items-center justify-start px-4 py-2 rounded-[8px]  undefined'>
+          <div className='undefined flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
             <svg
-              className='w-6 h-6 text-[#8CBDFF]'
+              className='h-6 w-6 text-[#8CBDFF]'
               width='28'
               height='28'
               viewBox='0 0 24 24'
@@ -283,9 +283,9 @@ export default async function Index() {
               Unlimited Hosts
             </h2>
           </div>
-          <div className='w-[240px] lg:w-auto flex space-x-2 items-center justify-start px-4 py-2 rounded-[8px]  undefined'>
+          <div className='undefined flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
             <svg
-              className='w-6 h-6 text-[#8CBDFF]'
+              className='h-6 w-6 text-[#8CBDFF]'
               width='28'
               height='28'
               viewBox='0 0 24 24'
@@ -317,9 +317,9 @@ export default async function Index() {
               Unlimited Agents
             </h2>
           </div>
-          <div className='w-[240px] lg:w-auto flex space-x-2 items-center justify-start px-4 py-2 rounded-[8px]  undefined'>
+          <div className='undefined flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
             <svg
-              className='w-6 h-6 text-[#8CBDFF]'
+              className='h-6 w-6 text-[#8CBDFF]'
               width='28'
               height='28'
               viewBox='0 0 24 24'
@@ -357,9 +357,9 @@ export default async function Index() {
       {/*
         Bottom Section
       */}
-      <div className='w-full mb-16'>
+      <div className='mb-16 w-full'>
         <div
-          className='border border-gray-300 dark:border-[#ffffff22] rounded-[8px] md:rounded-[40px] p-4 lg:p-12 bg-gradient-to-b from-[#D9D9D905] to-[#ba3a3a05] shadow-lgDark bg-[300%_auto] lg:bg-cover'
+          className='shadow-lgDark rounded-[8px] border border-gray-300 bg-gradient-to-b from-[#D9D9D905] to-[#ba3a3a05] bg-[300%_auto] p-4 dark:border-[#ffffff22] md:rounded-[40px] lg:bg-cover lg:p-12'
           style={{
             backgroundImage: 'url(/img/grid-dash.svg)',
             backgroundPosition: 'top',
@@ -367,15 +367,15 @@ export default async function Index() {
             zIndex: '0',
           }}
         >
-          <div className='flex items-center justify-center w-full px-4 pt-4 pb-4 lg:pb-8'>
+          <div className='flex w-full items-center justify-center p-4 lg:pb-8'>
             <div className='w-full max-w-[1237px]'>
-              <div className='grid lg:grid-cols-[1.4fr_1fr] pb-8 lg:pb-16 items-center'>
-                <div className='flex flex-col space-y-4 text-sm text-center text-gray-700 dark:text-white lg:text-left lg:space-y-8'>
+              <div className='grid items-center pb-8 lg:grid-cols-[1.4fr_1fr] lg:pb-16'>
+                <div className='flex flex-col space-y-4 text-center text-sm text-gray-700 dark:text-white lg:space-y-8 lg:text-left'>
                   <div className='flex flex-col space-y-4'>
-                    <h2 className='text-2xl font-semibold leading-normal text-transparent uppercase bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text'>
+                    <h2 className='bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text text-2xl font-semibold uppercase leading-normal text-transparent'>
                       Datastore
                     </h2>
-                    <h1 className='text-2xl font-bold text-gray-700 dark:text-white lg:text-4xl lg:whitespace-nowrap'>
+                    <h1 className='text-2xl font-bold text-gray-700 dark:text-white lg:whitespace-nowrap lg:text-4xl'>
                       Built from the ground-up for logging
                     </h1>
                   </div>
@@ -393,7 +393,7 @@ export default async function Index() {
                   </div>
                 </div>
               </div>
-              <div className="text-sm grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-900 dark:text-[#AAB7D2] p-8 lg:p-12 rounded-[25px] bg-gray-100 dark:bg-[#09101F] relative bg-clip-padding border-[2px] border-transparent before:content-[''] before:absolute before:left-0 before:right-0 before:bottom-0 before:top-0 before:-m-[2px] before:z-[-1] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500">
+              <div className="relative grid grid-cols-1 gap-8 rounded-[25px] border-[2px] border-transparent bg-gray-100 bg-clip-padding p-8 text-sm text-gray-900 before:absolute before:inset-0 before:z-[-1] before:-m-[2px] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500 before:content-[''] dark:bg-[#09101F] dark:text-[#AAB7D2] md:grid-cols-3 lg:p-12">
                 <div className='flex items-start space-x-2'>
                   <div className='flex flex-col space-y-4'>
                     <div className='flex items-center space-x-2'>
@@ -426,7 +426,7 @@ export default async function Index() {
                           </linearGradient>
                         </defs>
                       </svg>
-                      <h2 className='text-base pt-[2px] font-semibold text-gray-800 dark:text-white'>
+                      <h2 className='pt-[2px] text-base font-semibold text-gray-800 dark:text-white'>
                         Coordination free ingest
                       </h2>
                     </div>
@@ -469,7 +469,7 @@ export default async function Index() {
                           </linearGradient>
                         </defs>
                       </svg>
-                      <h2 className='text-base pt-[2px] font-semibold text-gray-800 dark:text-white'>
+                      <h2 className='pt-[2px] text-base font-semibold text-gray-800 dark:text-white'>
                         Object storage by default
                       </h2>
                     </div>
@@ -512,7 +512,7 @@ export default async function Index() {
                           </linearGradient>
                         </defs>
                       </svg>
-                      <h2 className='text-base pt-[2px] font-semibold text-gray-800 dark:text-white'>
+                      <h2 className='pt-[2px] text-base font-semibold text-gray-800 dark:text-white'>
                         Serverless querying
                       </h2>
                     </div>
@@ -524,11 +524,11 @@ export default async function Index() {
                   </div>
                 </div>
               </div>
-              <p className='px-4 mt-12 text-center text-gray-900 dark:text-white md:text-left'>
+              <p className='mt-12 px-4 text-center text-gray-900 dark:text-white md:text-left'>
                 Together, these architectural decisions make our datastore incredibly efficient
                 without compromising on features or durability.
               </p>
-              <p className='px-4 mt-4 text-center text-gray-900 dark:text-white md:text-left'>
+              <p className='mt-4 px-4 text-center text-gray-900 dark:text-white md:text-left'>
                 What this means for you is that the team at Axiom can enable new levels of logging
                 for even small customers, as well as enable more kinds of data to be logged and used
                 by your team.
