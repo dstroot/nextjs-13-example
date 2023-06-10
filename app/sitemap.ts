@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { URL, menuItems, footerItems } from '@/data/constants';
+import { meta, menuItems, footerItems } from '@/data/constants';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   //   const res = await fetch('https://.../posts');
@@ -12,13 +12,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // menu routes
   const routes = menuItems.map((route) => ({
-    url: `${URL}${route.path}`,
+    url: `${meta.URL}${route.path}`,
     lastModified: new Date(),
   }));
 
   // routes in footer
   const footerRoutes = footerItems.legal.map((route) => ({
-    url: `${URL}${route.path}`,
+    url: `${meta.URL}${route.path}`,
     lastModified: new Date(),
   }));
 

@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { URL } from '@/data/constants';
+import { meta } from '@/data/constants';
 
 // https://en.wikipedia.org/wiki/Robots.txt#Standard
 export default function robots(): MetadataRoute.Robots {
@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       //   disallow: '/private/',
     },
-    sitemap: `${URL}/sitemap.xml`,
+    sitemap: `${meta.URL}/sitemap.xml`,
   };
 }

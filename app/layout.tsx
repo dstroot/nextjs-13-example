@@ -3,13 +3,17 @@ import '@/styles/globals.css';
 // types
 import type { Metadata } from 'next';
 
+// library
+import { Suspense } from 'react';
+
 // components
 import { NavBar } from '@/components/NavBar';
 import { Footer } from '@/components/Footer';
 import { Providers } from '@/components/Providers';
+import { Analytics } from '@/components/Analytics';
 
 // data
-import { config } from '@/data/constants';
+import { config, meta } from '@/data/constants';
 
 // font
 import { Inter } from 'next/font/google';
@@ -35,30 +39,30 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 export const metadata: Metadata = {
   // metadataBase is a convenience option to set a base URL prefix for metadata fields
   // that require a fully qualified URL. https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-  metadataBase: new URL('https://example.com'),
+  metadataBase: new URL(meta.URL),
   // https://nextjs.org/docs/app/api-reference/functions/generate-metadata#title
   title: {
-    default: 'Acme',
-    template: '%s | Acme',
+    default: meta.siteName,
+    template: `%s | ${meta.siteName}`,
   },
-  description: 'NextJS + TailwindCSS minimalist starter kit',
+  description: meta.description,
   // https://nextjs.org/docs/app/api-reference/functions/generate-metadata#basic-fields
-  themeColor: '#fff',
+  themeColor: meta.themeColor,
   // https://nextjs.org/docs/app/api-reference/functions/generate-metadata#opengraph
   openGraph: {
-    title: 'NextJS + TailwindCSS minimalist starter kit',
-    description: 'The React Framework for the Web',
-    url: 'https://nextjs.org',
-    siteName: 'Next.js',
+    title: meta.title,
+    description: meta.description,
+    url: meta.URL,
+    siteName: meta.siteName,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
-        width: 800,
-        height: 600,
+        url: meta.og.ogImage,
+        width: meta.og.width,
+        height: meta.og.height,
       },
     ],
-    locale: 'en-US',
-    type: 'website',
+    locale: meta.og.locale,
+    type: meta.og.type,
   },
   robots: {
     index: true,
@@ -87,11 +91,16 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body
         className={`${inter.variable} grid min-h-full grid-rows-[auto_1fr_auto] bg-white font-sans antialiased transition-colors dark:bg-gray-900`}
       >
-        <Providers>
-          <NavBar />
-          <main className='container px-4 mx-auto'>{children}</main>
-          <Footer statusData={statusData} />
-        </Providers>
+        <>
+          <Suspense>
+            <Analytics />
+          </Suspense>
+          <Providers>
+            <NavBar />
+            <main className='container px-4 mx-auto'>{children}</main>
+            <Footer statusData={statusData} />
+          </Providers>
+        </>
       </body>
     </html>
   );
