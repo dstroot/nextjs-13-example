@@ -5,7 +5,7 @@ import { usePathname, useSearchParams } from 'next/navigation';
 import Script from 'next/script';
 import { useEffect } from 'react';
 
-export const Analytics = () => {
+export const GoogleTagMgr = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 

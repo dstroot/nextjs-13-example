@@ -5,12 +5,13 @@ import type { Metadata } from 'next';
 
 // library
 import { Suspense } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 // components
 import { NavBar } from '@/components/NavBar';
 import { Footer } from '@/components/Footer';
 import { Providers } from '@/components/Providers';
-import { Analytics } from '@/components/Analytics';
+import { GoogleTagMgr } from '@/components/GoogleTagMgr';
 
 // data
 import { config, meta } from '@/data/constants';
@@ -93,6 +94,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       >
         <>
           <Suspense>
+            <GoogleTagMgr />
             <Analytics />
           </Suspense>
           <Providers>
@@ -109,4 +111,20 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 /*
 Use grid instead of flex for sticky footer - puts all config onto body or single div:
   `min-h-screen grid grid-rows-[auto_1fr_auto]`
+
+Note that it's better to use min-h-full instead of min-h-screen because it works on mobile 
+safari. The problem is that the vh unit doesn't work properly on mobile devices; 100vh will 
+take up more than 100% of the screen real estate, because mobile browsers do that thing where 
+the browser UI comes and goes. You also need to reset html and body height manually:
+
+```css 
+@layer base {
+  html,
+  body,
+  #__next {
+    height: 100%;
+  }
+}
+```
+
 */
