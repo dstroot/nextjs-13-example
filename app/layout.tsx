@@ -100,7 +100,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           </Suspense>
           <Providers>
             <NavBar />
-            <main className='container px-4 mx-auto'>{children}</main>
+            <main className='container mx-auto px-4'>{children}</main>
             <Footer statusData={statusData} />
           </Providers>
         </>

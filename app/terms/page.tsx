@@ -27,10 +27,10 @@ export default function Index() {
       <div className='prose prose-lg mb-8 max-w-none break-words dark:prose-invert prose-a:text-blue-700 prose-a:no-underline hover:prose-a:text-blue-500 dark:prose-a:text-blue-300 dark:hover:prose-a:text-blue-500'>
         <div className='flex w-full px-4 pt-12 text-center'>
           <div className='w-full'>
-            <h1 className='text-berry-900 text-5xl font-bold dark:text-gray-200'>
+            <h1 className='text-5xl font-bold dark:text-gray-200'>
               Terms of Service
             </h1>
-            <h2 className='text-berry-700 px-6 pb-12 pt-6 text-xl leading-relaxed dark:text-gray-300 sm:px-24'>
+            <h2 className='px-6 pb-12 pt-6 text-xl leading-relaxed dark:text-gray-300 sm:px-24'>
               If you have any questions, please <a href='mailto:support@axiom.co'>get in touch.</a>
             </h2>
           </div>

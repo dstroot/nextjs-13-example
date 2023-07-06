@@ -15,7 +15,7 @@ export default async function Index() {
       {/*
         Big Rounded Section
       */}
-      <div className="relative my-8 grid grid-cols-1 gap-8 rounded-[25px] border-[2px] border-transparent bg-gray-100 bg-clip-padding p-8 text-sm text-gray-900 before:absolute before:inset-0 before:z-[-1] before:-m-[2px] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500 before:content-[''] dark:bg-[#09101F] dark:text-[#AAB7D2] sm:mx-8 md:grid-cols-3 lg:p-12">
+      <div className="relative my-8 grid grid-cols-1 gap-8 rounded-[25px] border-[2px] border-transparent bg-gray-100 bg-clip-padding p-8 text-sm text-gray-900 before:absolute before:inset-0 before:z-[-1] before:m-[-2px] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500 before:content-[''] dark:bg-[#09101F] dark:text-[#AAB7D2] sm:mx-8 md:grid-cols-3 lg:p-12">
         <div className='flex items-start space-x-2'>
           <div className='flex flex-col space-y-4'>
             <div className='flex items-center space-x-2'>
@@ -152,10 +152,10 @@ export default async function Index() {
       */}
       <div className='mb-12 flex justify-center'>
         <a href='https://cloud.axiom.co'>
-          <div className='shadow-lgDark pointer-events-none relative rounded-lg '>
+          <div className='pointer-events-none relative rounded-lg shadow-lg '>
             <div className='relative isolate z-10 m-[-2px] overflow-hidden rounded-[inherit] p-[3px]'>
               <div className='animate-buttonStroke bg-buttonConicGradient absolute inset-0 origin-[center_center] blur-[4px] will-change-transform'></div>
-              <div className='z-100 relative'>
+              <div className='relative z-50'>
                 <div className='flex items-center space-x-3 rounded-lg border border-[#ffffff10] bg-gray-100 px-8 py-4 font-bold text-gray-900 hover:bg-gray-200 dark:bg-[#0e1422] dark:text-white'>
                   <span>Try free 14 day trial</span>
                   <svg
@@ -215,7 +215,7 @@ export default async function Index() {
               Unlimited Users
             </h2>
           </div>
-          <div className='undefined flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
+          <div className='flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
             <svg
               className='h-6 w-6 text-[#8CBDFF]'
               width='28'
@@ -249,7 +249,7 @@ export default async function Index() {
               Unlimited Sources
             </h2>
           </div>
-          <div className='undefined flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
+          <div className=' flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
             <svg
               className='h-6 w-6 text-[#8CBDFF]'
               width='28'
@@ -283,7 +283,7 @@ export default async function Index() {
               Unlimited Hosts
             </h2>
           </div>
-          <div className='undefined flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
+          <div className=' flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
             <svg
               className='h-6 w-6 text-[#8CBDFF]'
               width='28'
@@ -317,7 +317,7 @@ export default async function Index() {
               Unlimited Agents
             </h2>
           </div>
-          <div className='undefined flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
+          <div className=' flex w-[240px] items-center justify-start space-x-2 rounded-[8px] px-4 py-2  lg:w-auto'>
             <svg
               className='h-6 w-6 text-[#8CBDFF]'
               width='28'
@@ -359,7 +359,7 @@ export default async function Index() {
       */}
       <div className='mb-16 w-full'>
         <div
-          className='shadow-lgDark rounded-[8px] border border-gray-300 bg-gradient-to-b from-[#D9D9D905] to-[#ba3a3a05] bg-[300%_auto] p-4 dark:border-[#ffffff22] md:rounded-[40px] lg:bg-cover lg:p-12'
+          className='rounded-[8px] border border-gray-300 bg-gradient-to-b from-[#D9D9D905] to-[#ba3a3a05] bg-[300%_auto] p-4 shadow-lg dark:border-[#ffffff22] md:rounded-[40px] lg:bg-cover lg:p-12'
           style={{
             backgroundImage: 'url(/img/grid-dash.svg)',
             backgroundPosition: 'top',
@@ -393,7 +393,7 @@ export default async function Index() {
                   </div>
                 </div>
               </div>
-              <div className="relative grid grid-cols-1 gap-8 rounded-[25px] border-[2px] border-transparent bg-gray-100 bg-clip-padding p-8 text-sm text-gray-900 before:absolute before:inset-0 before:z-[-1] before:-m-[2px] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500 before:content-[''] dark:bg-[#09101F] dark:text-[#AAB7D2] md:grid-cols-3 lg:p-12">
+              <div className="relative grid grid-cols-1 gap-8 rounded-[25px] border-[2px] border-transparent bg-gray-100 bg-clip-padding p-8 text-sm text-gray-900 before:absolute before:inset-0 before:z-[-1] before:m-[-2px] before:rounded-[inherit] before:bg-gradient-to-r before:from-violet-500 before:to-fuchsia-500 before:content-[''] dark:bg-[#09101F] dark:text-[#AAB7D2] md:grid-cols-3 lg:p-12">
                 <div className='flex items-start space-x-2'>
                   <div className='flex flex-col space-y-4'>
                     <div className='flex items-center space-x-2'>
