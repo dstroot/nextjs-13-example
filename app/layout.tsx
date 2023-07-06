@@ -14,7 +14,8 @@ import { Providers } from '@/components/Providers';
 import { GoogleTagMgr } from '@/components/GoogleTagMgr';
 
 // data
-import { config, meta } from '@/data/constants';
+import { meta } from '@/data/constants';
+import { env} from '@/data/env.mjs'
 
 // font
 import { Inter } from 'next/font/google';
@@ -77,7 +78,7 @@ export const metadata: Metadata = {
 
 // Get Atlassian StatusPage data from public API
 async function getStatus() {
-  const res = await fetch(`https://${config.statusPage}.statuspage.io/api/v2/summary.json`, {
+  const res = await fetch(`https://${env.STATUS_PAGE_ID}.statuspage.io/api/v2/summary.json`, {
     next: { revalidate: 30 },
   });
   return res.json();
