@@ -1,5 +1,5 @@
 {
-  "extends": ["next/core-web-vitals", "plugin:tailwindcss/recommended"],
+  "extends": ["next/core-web-vitals"],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js"],

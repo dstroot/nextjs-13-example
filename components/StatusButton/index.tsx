@@ -72,7 +72,7 @@ export const StatusButton = ({ statusData }: { statusData: Data }) => {
         className='flex items-center px-2 py-1 rounded-lg'
       >
         <span className={cn('inline-block w-3 h-3 mr-2 rounded-full', indicator)}></span>
-        <span className='text-sm text-berry-700 hover:text-berry-900 dark:text-gray-300'>
+        <span className='text-sm hover:text-berry-900 dark:text-gray-300'>
           {statusData.status.description}
         </span>
       </a>

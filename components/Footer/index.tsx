@@ -62,7 +62,7 @@ export const Footer = ({ statusData }: { statusData: Data }) => {
           <div className='flex flex-col items-start ml-8'>
             <Link
               aria-label='Home Page'
-              className='flex text-[#656A8C] hover:text-berry-900 dark:text-gray-300'
+              className='flex text-[#656A8C] hover: dark:text-gray-300'
               href='/'
             >
               <svg
@@ -186,7 +186,7 @@ export const Footer = ({ statusData }: { statusData: Data }) => {
             Third Column - Company
           */}
           <div className='text-sm'>
-            <div className='mb-6 text-berry-900 dark:text-white font-medium text-[15px]'>
+            <div className='mb-6  dark:text-white font-medium text-[15px]'>
               Company
             </div>
             {footerItems.company.map((item, index) => {
@@ -205,7 +205,7 @@ export const Footer = ({ statusData }: { statusData: Data }) => {
             Fourth Column - Legal
           */}
           <div className='text-sm'>
-            <div className='mb-6 text-berry-900 dark:text-white font-medium text-[15px]'>Legal</div>
+            <div className='mb-6  dark:text-white font-medium text-[15px]'>Legal</div>
             {footerItems.legal.map((item, index) => {
               return item.internal ? (
                 <Link key={`${index}`} href={item.path} className={gridLinks}>
@@ -225,7 +225,7 @@ export const Footer = ({ statusData }: { statusData: Data }) => {
         */}
         <div className='flex flex-col py-8 md:hidden'>
           <Disclosure>
-            <Disclosure.Button className='w-full flex justify-between items-center text-base text-left text-berry-900 dark:text-[#ABB3BF] dark:hover:text-gray-100 py-4 border-b  dark:border-gray-800'>
+            <Disclosure.Button className='w-full flex justify-between items-center text-base text-left  dark:text-[#ABB3BF] dark:hover:text-gray-100 py-4 border-b  dark:border-gray-800'>
               <h4>Resources</h4>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -258,7 +258,7 @@ export const Footer = ({ statusData }: { statusData: Data }) => {
             </Disclosure.Panel>
           </Disclosure>
           <Disclosure>
-            <Disclosure.Button className='w-full flex justify-between items-center text-base text-left text-berry-900 dark:text-[#ABB3BF] dark:hover:text-gray-100 py-4 border-b  dark:border-gray-800'>
+            <Disclosure.Button className='w-full flex justify-between items-center text-base text-left  dark:text-[#ABB3BF] dark:hover:text-gray-100 py-4 border-b  dark:border-gray-800'>
               <h4>Company</h4>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -292,7 +292,7 @@ export const Footer = ({ statusData }: { statusData: Data }) => {
           </Disclosure>
 
           <Disclosure>
-            <Disclosure.Button className='w-full flex justify-between items-center text-base text-left text-berry-900 dark:text-[#ABB3BF] dark:hover:text-gray-100 py-4 border-b  dark:border-gray-800'>
+            <Disclosure.Button className='w-full flex justify-between items-center text-base text-left  dark:text-[#ABB3BF] dark:hover:text-gray-100 py-4 border-b  dark:border-gray-800'>
               <h4>Legal</h4>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
