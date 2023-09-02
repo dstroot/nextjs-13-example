@@ -15,7 +15,7 @@ import { GoogleTagMgr } from '@/components/GoogleTagMgr';
 
 // data
 import { meta } from '@/data/constants';
-import { env} from '@/data/env.mjs'
+import { env } from '@/data/env.mjs';
 
 // font
 import { Inter } from 'next/font/google';
